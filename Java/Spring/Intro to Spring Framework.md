@@ -85,3 +85,12 @@ It is great! Isn't it?
 There are some other options for Dependency Injection around there, what in my opinion has made Spring so famous besides its simplicity, elegance and stability is that the guys of SpringSource have programmed many many POJOs that help to integrate Spring with many other common frameworks without being intrusive in your application. Also, Spring has several good subprojects like Spring MVC, Spring WebFlow, Spring Security and again a loooong list of etceteras.
 
 Anyway, I encourage you to read [Martin Fowler's article](http://martinfowler.com/articles/injection.html) about Dependency Injection and Inversion of Control because he does it better than me. ~~After understanding the basics take a look at [Spring Documentation](http://static.springframework.org/spring/docs/2.5.x/reference/index.html)~~, in my opinion, it ~~is~~ **used to be** the best Spring book ever.
+
+
+# What is annotation?
+Annotations are used to provide supplemental information about a program.
+- Annotations start with ‘**@**’.
+- Annotations do not change the action of a compiled program.
+- Annotations help to associate _metadata_ (information) to the program elements i.e. instance variables, constructors, methods, classes, etc.
+- Annotations are not pure comments as they can change the way a program is treated by the compiler. See below code for example.
+- Annotations basically are used to provide additional information, so could be an alternative to XML and Java marker interfaces.
