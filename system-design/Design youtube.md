@@ -7,5 +7,5 @@
 2. User can search for a video.
 3. User can comment on a video.
 4. User can see recommended video.
-5. User can make a channel and a
+5. User can make a channel and manage 
 # Nonfunctional Requirements
