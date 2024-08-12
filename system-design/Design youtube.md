@@ -13,4 +13,7 @@
 ## Core requirements
 1. The system should be highly available.
 2. The system should allow for low latency streaming of videos, even in low bandwidth scenarios.
-3. The system should 
+3. The system should support uploading and streaming large videos (10s of GBs).
+4. The system should scale to a high number of videos uploaded and watched per day (~1M videos uploaded per day, 100M videos watched per day).
+5. The system should support resumable uploads.
+## 
