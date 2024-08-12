@@ -78,7 +78,7 @@ List<User> users = userLister.getUsers();  // This will actually work
 
 It is great! Isn't it?
 
-- _What if you want to use another implementation of your `UserLister` interface?_ Just change the XML.
+- _What if you want to use another 9implementation of your `UserLister` interface?_ Just change the XML.
 - _What if don't have a `UserLister` implementation ready?_ Program a temporal mock implementation of `UserLister` and ease the development of the view.
 - _What if I don't want to use Spring anymore?_ Just don't use it! Your application isn't coupled to it. [Inversion of Control](http://en.wikipedia.org/wiki/Inversion_of_control) states: "The application controls the framework, not the framework controls the application".
 
