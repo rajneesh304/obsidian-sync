@@ -11,4 +11,5 @@
 6. User can subscribe to channels.
 # Nonfunctional Requirements
 ## Core requirements
-1. The s
+1. The system should be highly available.
+2. The system should allow for low latency streaming of videos, even 
