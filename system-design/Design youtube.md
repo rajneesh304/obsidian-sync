@@ -16,4 +16,7 @@
 3. The system should support uploading and streaming large videos (10s of GBs).
 4. The system should scale to a high number of videos uploaded and watched per day (~1M videos uploaded per day, 100M videos watched per day).
 5. The system should support resumable uploads.
-## 
+## Out of scope
+1. The system should protect against bad content in videos.
+2. The system should protect against bots or fake accounts uploading or consuming videos.
+3. The system should have monitoring / alerting.
