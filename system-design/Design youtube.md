@@ -12,4 +12,5 @@
 # Nonfunctional Requirements
 ## Core requirements
 1. The system should be highly available.
-2. The system should allow for low latency streaming of videos, even 
+2. The system should allow for low latency streaming of videos, even in low bandwidth scenarios.
+3. The system should 
