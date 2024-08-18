@@ -8,4 +8,4 @@
 	  - It can be detached from one EC2 instance and attached to another very quickly. 
 6. EBS - Delete on termination
 	1. Control EBS behavior when associated EC2 instance terminates.
-	2. 
+	2. By default
