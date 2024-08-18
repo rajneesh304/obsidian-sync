@@ -6,7 +6,7 @@
 5. EBS Volume is a network drive and not a physical drive.
 	  - It uses n/w to communicate to the drive, so there might be a bit of latency.
 	  - It can be detached from one EC2 instance and attached to another very quickly. 
-6. EBS - Delete on termination
+6. EBS - Delete on termination flag
 	1. Control EBS behavior when associated EC2 instance terminates.
 	2. By default, root EBS associated with EC2 instance has delete on termination flag set to true, other EBS instances are set to false.
-	3. 
+7. 
