@@ -9,3 +9,5 @@
 6. EBS - Delete on termination flag
 	1. Control EBS behavior when associated EC2 instance terminates.
 	2. By default, root EBS associated with EC2 instance has delete on termination flag set to true, other EBS instances are set to false.
+7. https://aws.amazon.com/blogs/aws/new-elastic-network-interfaces-in-the-virtual-private-cloud/ 
+8. 
