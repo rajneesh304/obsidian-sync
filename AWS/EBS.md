@@ -1,0 +1,1 @@
+An EBS Volume stands for Elastic Block Store. It's a network drive that you can attach to your instances while they run. 
