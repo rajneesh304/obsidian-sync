@@ -6,7 +6,13 @@
 5. Exception Handling
 6. Enumerations
 7. Design Patterns
-	1. Singleton DesignPattern
-	2. Factory
-	3. Builder
-	4. 
+	1. Creational Design Patterns
+		1. Factory
+		2. Abstract Factory
+		3. Prototype
+		4. Builder
+		5. Singleton
+	2. 
+	3. 
+	4. Builder
+	5. 
