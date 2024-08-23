@@ -5,7 +5,7 @@
 4. Springboot
 5. Exception Handling
 6. Enumerations
-7. Design Patterns
+7. [Design Patterns](https://refactoring.guru/)
 	1. Creational Design Patterns
 		1. Factory
 		2. Abstract Factory
