@@ -12,7 +12,13 @@
 		3. Prototype
 		4. Builder
 		5. Singleton
-	2. 
-	3. 
-	4. Builder
-	5. 
+	2. Structural Patterns
+		1. Adapter
+		2. Bridge
+		3. Composite
+		4. Decorator
+		5. Facade
+		6. Flyweight
+		7. Proxy
+	3. Behavioral Patterns
+		1. 
