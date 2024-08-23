@@ -3,4 +3,5 @@
 2. Collections
 3. Spring
 4. Springboot
-5. Exce
+5. Exception Handling
+6. Enumerations
