@@ -2,6 +2,7 @@
 # Topics
 1. ArrayList
 2. HashSet
-	- Set is a collection of unique values
-	- There is no concept of index in a set
-	- There is no ar
+	- HashSet is a collection of unique values
+	- There is no concept of index in a HashSet
+	- There is no particular order in which the values are stored in a HashSet
+	- 
