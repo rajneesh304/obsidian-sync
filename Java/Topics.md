@@ -1,11 +1,12 @@
 1. Multithreading
 	1. Concurrency
-2. Collections
-3. Spring
-4. Springboot
-5. Exception Handling
-6. Enumerations
-7. [Design Patterns](https://refactoring.guru/)
+2. [Collection
+3. Collections
+4. Spring
+5. Springboot
+6. Exception Handling
+7. Enumerations
+8. [Design Patterns](https://refactoring.guru/)
 	1. Creational Design Patterns
 		1. Factory
 		2. Abstract Factory
@@ -31,5 +32,5 @@
 		8. Strategy
 		9. Template Method
 		10. Visitor
-8. Clone
-9. 
+9. Clone
+10. 
