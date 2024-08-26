@@ -8,3 +8,5 @@
 3. TreeSet
 	- Values are stored in sorted fashion
 	- TreeSet extends AbstractSet and implements NavigableSet which extends SortedSet
+4. Map
+	- 
