@@ -1,6 +1,6 @@
 1. Multithreading
 	1. Concurrency
-2. [Collection
+2. Collection
 3. Collections
 4. Spring
 5. Springboot
