@@ -21,5 +21,11 @@ _Warning_: using `-x` instead of `-fd` _would_ delete ignored files. You probabl
 
 ### Delete a branch
 ```
-git branch -d <branch_name>
+git branch -d <branch-name>
 ```
+### Force delete a local branch
+```
+git branch -D <branch-name>
+```
+
+
