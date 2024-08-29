@@ -12,13 +12,13 @@
 	5. Facade
 	6. Flyweight
 	7. Proxy
-3. Behaviour
+3. [[Behavioural Pattern]]
 	1. Chain of Responsibility
 	2. Command
 	3. Iterator
 	4. Mediator
 	5. Memento
-	6. Observer
+	6. [[Observer Pattern]]
 	7. State
 	8. Strategy
 	9. Template
