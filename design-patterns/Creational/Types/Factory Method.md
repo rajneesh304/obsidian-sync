@@ -11,6 +11,3 @@ The Factory Method defines a method, which should be used for creating objects i
 1. A document creation framework where each type of document (PDF, Word, etc.) has a different factory method.
 2. Production of cross-platform GUI elements
 
-Implementation of Production of cross-platform GUI elements:
-
-
