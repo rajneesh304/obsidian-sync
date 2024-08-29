@@ -3,6 +3,7 @@
 **Example**
 Imagine that you have two types of objects: a `Customer` and a `Store`. The customer is very interested in a particular brand of product (say, it’s a new model of the iPhone) which should become available in the store very soon. So the customer will get subscribed to the item in store and store will become a producer.
 
+**Producer Code**
 ```java
 public interface ObservableInterface {  
     void addObserver(ObserverInterface observer);  
@@ -50,4 +51,14 @@ public class Publisher implements ObservableInterface {
         }  
     }  
 }
+```
+
+**Subscriber code**
+```java
+public interface ObserverInterface {  
+    public void update();  
+}
+```
+```java
+
 ```
