@@ -7,5 +7,15 @@
 2. Structural
 	1. Adapter
 	2. Bridge
-	3. 
+	3. Composite
+	4. Decorator
+	5. Facade
+	6. Flyweight
+	7. Proxy
 3. Behaviour
+	1. Chain of Responsibility
+	2. Command
+	3. Iterator
+	4. Mediator
+	5. Memnto
+	6. 
