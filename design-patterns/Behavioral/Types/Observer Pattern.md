@@ -3,6 +3,10 @@
 **Example**
 Imagine that you have two types of objects: a `Customer` and a `Store`. The customer is very interested in a particular brand of product (say, it’s a new model of the iPhone) which should become available in the store very soon. So the customer will get subscribed to the item in store and store will become a producer.
 
+**Real world analogy**
+If you subscribe to a newspaper or magazine, you no longer need to go to the store to check if the next issue is available. Instead, the publisher sends new issues directly to your mailbox right after publication or even in advance.
+
+
 **Producer Code**
 ```java
 public interface ObservableInterface {  
@@ -59,6 +63,19 @@ public interface ObserverInterface {
     public void update();  
 }
 ```
-```java
 
+```java
+public class Subscriber implements ObserverInterface {  
+  
+    ObservableInterface pub;  
+  
+    public Subscriber(ObservableInterface pub) {  
+        this.pub = pub;  
+    }  
+  
+    @Override  
+    public void update() {  
+        System.out.println("Subscriber got this info: " + pub.getMessage() );  
+    }  
+}
 ```
