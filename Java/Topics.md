@@ -33,4 +33,3 @@
 		9. Template Method
 		10. Visitor
 9. Clone
-10. 
