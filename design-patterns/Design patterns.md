@@ -1,4 +1,4 @@
-1. Creational
+1. [[Creational pattern]]
 	1. [[Factory Method]]
 	2. Abstract Factory
 	3. Builder
