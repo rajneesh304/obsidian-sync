@@ -12,7 +12,7 @@
 	5. Facade
 	6. Flyweight
 	7. Proxy
-3. [[Behavioural Pattern]]
+3. [[Behavioral Pattern]]
 	1. Chain of Responsibility
 	2. Command
 	3. Iterator
