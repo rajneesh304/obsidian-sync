@@ -7,6 +7,7 @@ Imagine that you have two types of objects: a `Customer` and a `Store`. The cust
 If you subscribe to a newspaper or magazine, you no longer need to go to the store to check if the next issue is available. Instead, the publisher sends new issues directly to your mailbox right after publication or even in advance.
 
 
+### Sample code
 **Producer Code**
 ```java
 public interface ObservableInterface {  
