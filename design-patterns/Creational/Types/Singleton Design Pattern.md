@@ -54,3 +54,21 @@ public class StaticBlockSingleton {
     }
 }
 ```
+Both eager initialization and static block initialization create the instance even before it’s being used and that is not the best practice to use.
+### Lazy Initialization
+Lazy initialization method to implement the singleton pattern creates the instance in the global access method.
+```java
+public class LazyInitializedSingleton {
+
+    private static LazyInitializedSingleton instance;
+
+    private LazyInitializedSingleton(){}
+
+    public static LazyInitializedSingleton getInstance() {
+        if (instance == null) {
+            instance = new LazyInitializedSingleton();
+        }
+        return instance;
+    }
+}
+```
