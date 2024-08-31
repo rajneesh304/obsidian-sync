@@ -73,5 +73,8 @@ public class LazyInitializedSingleton {
 }
 ```
 
-This implementation is not thread safe. if multiple threads skip the if check a 
+This implementation is not thread safe. if multiple threads skip the if check at the same time, we can get multiple instances of this class' 
 ### Thread Safe Singleton
+A simple way to create a thread-safe singleton class is to make the global access method [synchronized](https://www.digitalocean.com/community/tutorials/thread-safety-in-java "Java Synchronization and Thread Safety Tutorial with Examples") so that only one thread can execute this method at a time.
+```java
+```
