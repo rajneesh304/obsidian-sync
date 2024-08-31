@@ -11,3 +11,5 @@ To implement a singleton pattern, we have different approaches, but all of them 
 - Public static method that returns the instance of the class, this is the global access point for the outer world to get the instance of the singleton class.
 
 ## Implementation approaches
+
+
