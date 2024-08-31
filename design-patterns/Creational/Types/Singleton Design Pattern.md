@@ -29,3 +29,5 @@ public class EagerInitializedSingleton {
 }
 ```
 
+If your singleton class is not using a lot of resources, this is the approach to use. 
+But in most of the scenarios, singleton classes are created for resources such as File System, Database connections, etc.
