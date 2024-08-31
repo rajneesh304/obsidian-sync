@@ -114,3 +114,4 @@ It reduces the performance because multiple threads can be waiting on getInstanc
 ```
 
 ### Bill Pugh Singleton Implementation
+Create the singleton class using an insner tat
