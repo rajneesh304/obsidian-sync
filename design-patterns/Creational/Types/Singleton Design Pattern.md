@@ -95,9 +95,9 @@ public class ThreadSafeSingleton {
 
 }
 ```
-It reduces the performance because multiple threads can be waiting on getInstance but only one thread can execute it at a time, hence blocking other thread from proceeding.
 
-Improvement over above impl:
+It reduces the performance because multiple threads can be waiting on getInstance but only one thread can execute it at a time, hence blocking other thread from proceeding. To avoid this extra overhead every time, _double-checked locking_ principle is used
+
 ```java
 	public static ThreadSafeSingleton getInstance() {
         if (instance == null) {
@@ -111,4 +111,5 @@ Improvement over above impl:
     }
 
 ```
-### 
+
+### Bill Pugh Singleton Implementation
