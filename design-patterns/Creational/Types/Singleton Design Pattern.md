@@ -97,4 +97,5 @@ public class ThreadSafeSingleton {
 ```
 It reduces the performance because multiple threads can be waiting on getInstance but only one thread can execute it at a time, hence blocking other thread from proceeding.
 
+Impr
 ### 
