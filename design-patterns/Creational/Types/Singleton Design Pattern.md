@@ -114,4 +114,18 @@ It reduces the performance because multiple threads can be waiting on getInstanc
 ```
 
 ### Bill Pugh Singleton Implementation
-Create the singleton class using an insner tat
+Create the singleton class using an inner static helper class.
+```java
+public class BillPughSingleton {
+
+    private BillPughSingleton(){}
+
+    private static class SingletonHelper {
+        private static final BillPughSingleton INSTANCE = new BillPughSingleton();
+    }
+
+    public static BillPughSingleton getInstance() {
+        return SingletonHelper.INSTANCE;
+    }
+}
+```
