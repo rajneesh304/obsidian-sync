@@ -129,3 +129,5 @@ public class BillPughSingleton {
     }
 }
 ```
+\
+### Enum Singleton Implementation
