@@ -33,3 +33,24 @@ If your singleton class is not using a lot of resources, this is the approach to
 But in most of the scenarios, singleton classes are created for resources such as File System, Database connections, etc.
 ### Static block initialization
 Static block initialization implementation is similar to eager initialization, except that instance of the class is created in the static block that provides the option for exception handling.
+```java
+public class StaticBlockSingleton {
+
+    private static StaticBlockSingleton instance;
+
+    private StaticBlockSingleton(){}
+
+    // static block initialization for exception handling
+    static {
+        try {
+            instance = new StaticBlockSingleton();
+        } catch (Exception e) {
+            throw new RuntimeException("Exception occurred in creating singleton instance");
+        }
+    }
+
+    public static StaticBlockSingleton getInstance() {
+        return instance;
+    }
+}
+```
