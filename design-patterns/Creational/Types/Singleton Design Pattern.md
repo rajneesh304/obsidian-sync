@@ -97,5 +97,18 @@ public class ThreadSafeSingleton {
 ```
 It reduces the performance because multiple threads can be waiting on getInstance but only one thread can execute it at a time, hence blocking other thread from proceeding.
 
-Impr
+Improvement over above impl:
+```java
+	public static ThreadSafeSingleton getInstance() {
+        if (instance == null) {
+		    synchronized(ThreadSafeSingleton.class){
+			    if(instance == null){
+		            instance = new ThreadSafeSingleton();
+			    }
+		    }
+        }
+        return instance;
+    }
+
+```
 ### 
