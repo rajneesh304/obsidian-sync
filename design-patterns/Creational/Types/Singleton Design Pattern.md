@@ -55,6 +55,7 @@ public class StaticBlockSingleton {
 }
 ```
 Both eager initialization and static block initialization create the instance even before it’s being used and that is not the best practice to use.
+
 ### Lazy Initialization
 Lazy initialization method to implement the singleton pattern creates the instance in the global access method.
 ```java
@@ -73,7 +74,8 @@ public class LazyInitializedSingleton {
 }
 ```
 
-This implementation is not thread safe. if multiple threads skip the if check at the same time, we can get multiple instances of this class' 
+This implementation is not thread safe. if multiple threads skip the if check at the same time, we can get multiple instances of this class.
+
 ### Thread Safe Singleton
 A simple way to create a thread-safe singleton class is to make the global access method [synchronized](https://www.digitalocean.com/community/tutorials/thread-safety-in-java "Java Synchronization and Thread Safety Tutorial with Examples") so that only one thread can execute this method at a time.
 ```java
@@ -92,4 +94,6 @@ public class ThreadSafeSingleton {
 
 }
 ```
-It reduces the performance because multiple threads can be waiting on getInstance to get a 
+It reduces the performance because multiple threads can be waiting on getInstance but only one thread can execute it at a time, hence blocking other thread from proceeding.
+
+###
