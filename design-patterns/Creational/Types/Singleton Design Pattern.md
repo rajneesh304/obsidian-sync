@@ -73,3 +73,5 @@ public class LazyInitializedSingleton {
 }
 ```
 
+This implementation is not thread safe. if multiple threads skip the if check a 
+### Thread Safe Singleton
