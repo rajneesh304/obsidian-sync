@@ -131,3 +131,25 @@ public class BillPughSingleton {
 ```
 \
 ### Enum Singleton Implementation
+
+- `enum` is inherently singleton in Java because Java ensures that any enum value is instantiated only once.
+- This approach is thread-safe and also prevents issues related to serialization, ensuring a single instance throughout the application.
+```java
+public enum Singleton {
+    INSTANCE;
+
+    // Add your methods and fields here
+    public void someMethod() {
+        // Method implementation
+    }
+}
+
+// Usage
+public class Main {
+    public static void main(String[] args) {
+        Singleton singleton = Singleton.INSTANCE;
+        singleton.someMethod();
+    }
+}
+
+```
