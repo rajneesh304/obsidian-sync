@@ -93,5 +93,3 @@ public class LambdaRunnableExample {
 | Code Reusability | A single instance can be shared among multiple threads                | Each thread needs a new instance                                |
 | Resource Sharing | Allows sharing of resources among multiple threads                    | More difficult to share resources                               |
 | Memory Overhead  | Lower memory overhead as no separate object is created for the thread | Higher memory overhead as each thread object has its own memory |
-
----
