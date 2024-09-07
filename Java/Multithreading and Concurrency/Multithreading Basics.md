@@ -52,14 +52,7 @@ Multithreading can be achieved using 2 ways:
    class MyThread extends Thread {
     @Override
     public void run() {
-        for (int i = 1; i <= 5; i++) {
-            System.out.println(Thread.currentThread().getName() + " is running: " + i);
-            try {
-                Thread.sleep(500); // Pauses execution for 500 milliseconds
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
+        // something something
     }
 }
 
@@ -78,7 +71,7 @@ public class ThreadExample {
 public class LambdaRunnableExample {
     public static void main(String[] args) {
         Runnable runnable = () -> {
-        
+        // Something something
         };
 
         Thread thread1 = new Thread(runnable);
@@ -89,3 +82,4 @@ public class LambdaRunnableExample {
     }
 }
 ```
+
