@@ -23,6 +23,8 @@
 | A system call is involved in it.                                                     | No system call is involved, it is created using APIs.                                                                                                                        |
 | The process does not share data with each other.                                     | Threads share data with each other.                                                                                                                                          |
 
+---
+
 ## Thread Lifecycle
 ![[Screenshot_20240907_232903.png]]
 **New:** Whenever a new thread is created, it is always in the new state. For a thread in the new state, the code has not been run yet and thus has not begun its execution.
@@ -41,9 +43,8 @@
 
 - When a thread has finished its job, then it exists or terminates normally.
 - **Abnormal termination:** It occurs when some unusual events such as an unhandled exception or segmentation fault.
+
 ---
-
-
 ## Java thread implementation
 Multithreading can be achieved using 2 ways: 
 1. Extending Threads class
