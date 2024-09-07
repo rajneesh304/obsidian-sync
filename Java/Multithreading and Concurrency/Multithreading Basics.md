@@ -15,3 +15,8 @@ A thread is a path of execution within a process. Every process has at least one
 Threads within a process share the process’s resources including memory and open files. However, every thread has its own call stack.
 
 Since threads share the same address space of the process, creating new threads and communicating between them is more efficient.
+
+| Process                                                                                                                        | Thread                                                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| A Process is a program in execution. It has its own address space, a call stack, and link to any resources such as open files. | A thread is a path of execution within a process. Every process has at least one thread - called the main thread. The main thread can create additional threads within the process. |
+|                                                                                                                                |                                                                                                                                                                                     |
