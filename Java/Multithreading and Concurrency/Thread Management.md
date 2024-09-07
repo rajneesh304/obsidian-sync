@@ -1,6 +1,6 @@
 - [x] **Thread Priorities:** Understand how thread priorities influence thread scheduling.
 - [x] **Thread Group:** Learn about thread groups and how to manage multiple threads collectively.
-- [ ] **Daemon Threads:** Understand what daemon threads are and how they differ from user threads.
+- [x] **Daemon Threads:** Understand what daemon threads are and how they differ from user threads.
 ---
 ## Thread Priorities
 A thread's priority is a recommendation to the operating system to prefer one thread over another in any scheduling or CPU allocation decision point where these two threads are involved. But how this is implemented depends on the operating system and the JVM implementation.
@@ -47,7 +47,7 @@ public Thread(ThreadGroup group, Runnable target, String name)
 *example of daemon thread: garbage collection* 
 We can make a thread daemon thread by using following function: 
 ```java
-t1.setDaemon(boolean)
+t1.setDaemon(boolean);
 ```
 
 | User Thread                                                                                                    | Daemon Thread                                                                                                                       |
