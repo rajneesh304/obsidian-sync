@@ -48,4 +48,30 @@
 ## Java thread implementation
 Multithreading can be achieved using 2 ways: 
 1. Extending Threads class
+   ```java
+   class MyThread extends Thread {
+    @Override
+    public void run() {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(Thread.currentThread().getName() + " is running: " + i);
+            try {
+                Thread.sleep(500); // Pauses execution for 500 milliseconds
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+}
+
+public class ThreadExample {
+    public static void main(String[] args) {
+        MyThread thread1 = new MyThread();
+        MyThread thread2 = new MyThread();
+
+        thread1.start(); // Start the first thread
+        thread2.start(); // Start the second thread
+    }
+}
+
+```
 2. Implementing Runnable interface
