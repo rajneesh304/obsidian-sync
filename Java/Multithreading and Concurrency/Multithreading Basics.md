@@ -41,3 +41,5 @@
 
 - When a thread has finished its job, then it exists or terminates normally.
 - **Abnormal termination:** It occurs when some unusual events such as an unhandled exception or segmentation fault.
+
+## Java thread implementation
