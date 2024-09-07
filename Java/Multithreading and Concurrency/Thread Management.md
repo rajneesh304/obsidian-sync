@@ -44,7 +44,11 @@ public Thread(ThreadGroup group, Runnable target, String name)
 ## Daemon thread
 **Daemon threads** are low priority threads which always run in background and user threads are high priority threads which always run in foreground. 
 **User Thread** or **Non-Daemon** are designed to do specific or complex task where as daemon threads are used to perform supporting tasks.
-example of daemon thread: garbage collection 
+*example of daemon thread: garbage collection* 
+We can make a thread daemon thread by using following function: 
+```java
+t1.setDaemon(boolean)
+```
 
 | User Thread                                                                                                    | Daemon Thread                                                                                                                       |
 | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
