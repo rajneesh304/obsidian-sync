@@ -21,6 +21,5 @@
 | The process has its own Process Control Block, Stack, and Address Space.             | Thread has Parents’ PCB, its own Thread Control Block, and Stack and common Address space.                                                                                   |
 | Changes to the parent process do not affect child processes.                         | Since all threads of the same process share address space and other resources so any changes to the main thread may affect the behavior of the other threads of the process. |
 | A system call is involved in it.                                                     | No system call is involved, it is created using APIs.                                                                                                                        |
-| The process does not share data with each other.                                     |                                                                                                                                                                              |
-Since threads share the same address space of the process, creating new threads and communicating between them is more efficient.
+| The process does not share data with each other.                                     | Threads share data with each other.                                                                                                                                          |
 
