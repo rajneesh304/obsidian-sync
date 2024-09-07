@@ -8,4 +8,5 @@ t1.setPriority(4);
 t2.setPriority(5);
 ```
 t2 will have higher priority.
-Default priority of main thread is always 5 and it can be changed. Priority for other threads depend on parent thread
+Default priority of main thread is always 5 and it can be changed. Priority for other threads depend on parent thread's priority.
+
