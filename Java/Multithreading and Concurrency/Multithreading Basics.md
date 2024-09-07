@@ -83,6 +83,8 @@ public class LambdaRunnableExample {
 }
 ```
 
-_Inherit less, interface more._
+> [!NOTE]
+> _Inherit less, interface more._
+
 
 
