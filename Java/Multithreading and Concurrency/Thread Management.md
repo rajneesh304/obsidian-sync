@@ -27,3 +27,13 @@ Default priority of main thread is always 5 and it can be changed. Priority for 
 - Every Java thread is a member of a _thread group_. 
 - Thread groups provide a mechanism for collecting multiple threads into a single object and manipulating those threads all at once, rather than individually.
 - A thread is a permanent member of whatever thread group it joins upon its creation--you cannot move a thread to a new group after the thread has been created.
+```java
+ThreadGroup myThreadGroup = new ThreadGroup("My Group of Threads");
+Thread myThread = new Thread(myThreadGroup, "a thread for my group");
+
+// Following constructors are present in thread class:
+public Thread(ThreadGroup group, Runnable _target_)
+public Thread(ThreadGroup group, String _name_)
+public Thread(ThreadGroup group, Runnable _target_, String _name_)
+
+```
