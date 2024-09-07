@@ -78,14 +78,7 @@ public class ThreadExample {
 public class LambdaRunnableExample {
     public static void main(String[] args) {
         Runnable runnable = () -> {
-            for (int i = 1; i <= 5; i++) {
-                System.out.println(Thread.currentThread().getName() + " is running: " + i);
-                try {
-                    Thread.sleep(500); // Pauses execution for 500 milliseconds
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
+        
         };
 
         Thread thread1 = new Thread(runnable);
