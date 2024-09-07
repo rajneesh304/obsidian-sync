@@ -3,4 +3,9 @@
 - [ ] **Daemon Threads:** Understand what daemon threads are and how they differ from user threads.
 
 ## Thread Priorities
+```
+t1.setPriority(4);
+t2.setPriority(5);
+```
+
 
