@@ -41,3 +41,15 @@ public Thread(ThreadGroup group, String name)
 public Thread(ThreadGroup group, Runnable target, String name)
 ```
 ---
+## Daemon thread
+Daemon threaare low priority threads which always run in background and user threads are high priority threads which always run in foreground. User Thread or Non-Daemon are designed to do specific or complex task where as daemon threads are used to perform supporting tasks.
+
+| User Thread                                                                                                                                                            | Daemon Thread                                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| [JVM](https://www.geeksforgeeks.org/jvm-works-jvm-architecture/) wait until user threads to finish their work. It never exit until all user threads finish their work. | The JVM will’t wait for daemon threads to finish their work. The JVM will exit as soon as all user threads finish their work. |
+| JVM will not force to user threads for terminating, so JVM will wait for user threads to terminate themselves.                                                         | If all user threads have finished their work JVM will force the daemon threads to terminate                                   |
+| User threads are created by the application.                                                                                                                           | Mostly Daemon threads created by the JVM.                                                                                     |
+| Mainly user threads are designed to do some specific task.                                                                                                             | Daemon threads are design as to support the user threads.                                                                     |
+| User threads are foreground threads.                                                                                                                                   | Daemon threads are background threads.                                                                                        |
+| User threads are high priority threads.                                                                                                                                | Daemon threads are low priority threads.                                                                                      |
+| Its life independent.                                                                                                                                                  | Its life depends on user threads.                                                                                             |
