@@ -41,5 +41,10 @@
 
 - When a thread has finished its job, then it exists or terminates normally.
 - **Abnormal termination:** It occurs when some unusual events such as an unhandled exception or segmentation fault.
+---
+
 
 ## Java thread implementation
+Multithreading can be achieved using 2 ways: 
+1. Extending Threads class
+2. Implementing Runnable interface
