@@ -23,3 +23,5 @@
 | A system call is involved in it.                                                     | No system call is involved, it is created using APIs.                                                                                                                        |
 | The process does not share data with each other.                                     | Threads share data with each other.                                                                                                                                          |
 
+## Thread Lifecycle
+![[Screenshot_20240907_232903.png]]
