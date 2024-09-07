@@ -2,4 +2,5 @@
 - [ ] **Thread Group:** Learn about thread groups and how to manage multiple threads collectively.
 - [ ] **Daemon Threads:** Understand what daemon threads are and how they differ from user threads.
 
-## Thread Priorrity
+## Thread Priorities
+
