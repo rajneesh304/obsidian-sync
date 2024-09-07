@@ -22,3 +22,8 @@ Default priority of main thread is always 5 and it can be changed. Priority for 
 2. Priorities are only _one_ part of a calculation that dictates scheduling.
 3. Distinct Java priority values may be translated into the same value in practice (so for example, priority 10 and 9 may be the same).
 4. Each OS makes its own decisions what to do with the priorities, as Java is using the underlying OS's threading mechanism.
+---
+## Thread Groups
+- Every Java thread is a member of a _thread group_. 
+- Thread groups provide a mechanism for collecting multiple threads into a single object and manipulating those threads all at once, rather than individually.
+
