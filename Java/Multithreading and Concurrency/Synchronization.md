@@ -49,5 +49,9 @@ class Counter {
 ```
 Synchronized block is **used to prevent multiple threads from executing a portion of a code in a method at the same point in time**. On the other hand, synchronized method will prevent multiple threads from executing the entire method at the same point in time.
 
+#### Issues with synchronized 
+- A thread can take a lock only once. Synchronized blocks don’t offer any mechanism of a waiting queue and after the exit of one thread, any thread can take the lock. 
+- This could lead to starvation of resources for some other thread for a very long period of time.   
+
 ---
 ## Reentrant Lock
