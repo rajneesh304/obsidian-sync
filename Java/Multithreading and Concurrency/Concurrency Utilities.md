@@ -11,4 +11,29 @@ public class ExecutorFactory {
 }
 ```
 - ExecutorService can execute _Runnable_ and _Callable_ tasks.
-- 
+We can assign tasks to the _ExecutorService_ using several methods including _execute()_, which is inherited from the _Executor_ interface, and also _submit()_, _invokeAny()_ and _invokeAll()_
+
+- The **_execute()_** method is _void_ and doesn’t give any possibility to get the result of a task’s execution or to check the task’s status (is it running):
+
+```java
+executorService.execute(runnableTask);
+```
+
+- **_submit()_** submits a _Callable_ or a _Runnable_ task to an _ExecutorService_ and returns a result of type _Future_:
+
+```java
+Future<String> future = 
+  executorService.submit(callableTask);
+```
+
+- **_invokeAny()_** assigns a collection of tasks to an _ExecutorService_, causing each to run, and returns the result of a successful execution of one task (if there was a successful execution):
+
+```java
+String result = executorService.invokeAny(callableTasks);
+```
+
+- _**invokeAll()**_ assigns a collection of tasks to an _ExecutorService_, causing each to run, and returns the result of all task executions in the form of a list of objects of type _Future_:
+
+```java
+List<Future<String>> futures = executorService.invokeAll(callableTasks);
+```
