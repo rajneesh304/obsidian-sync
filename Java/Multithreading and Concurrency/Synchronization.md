@@ -1,4 +1,4 @@
-- [ ] **Intrinsic Locks and Synchronized Blocks:** Learn how to use the `synchronized` keyword to ensure that only one thread accesses a critical section at a time.
+- [x] **Intrinsic Locks and Synchronized Blocks:** Learn how to use the `synchronized` keyword to ensure that only one thread accesses a critical section at a time.
 - [ ] **Reentrant Locks:** Study the `ReentrantLock` class from `java.util.concurrent.locks` package for more control over locking.
 - [ ] **Atomic Operations:** Learn about atomic classes like `AtomicInteger`, `AtomicBoolean`, and `AtomicReference` for lock-free thread-safe operations.
 ## Intrinsic Lock and Synchronized Blocks
@@ -28,7 +28,6 @@ class Counter {
     }
 }
 ```
----
 ## Synchronized block
 ```java
 class Counter {
@@ -48,3 +47,7 @@ class Counter {
     }
 }
 ```
+Synchronized block is **used to prevent multiple threads from executing a portion of a code in a method at the same point in time**. On the other hand, synchronized method will prevent multiple threads from executing the entire method at the same point in time.
+
+---
+## Reentrant Lock
