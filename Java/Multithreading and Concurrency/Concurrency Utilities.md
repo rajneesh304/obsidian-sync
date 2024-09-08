@@ -48,5 +48,5 @@ es.shutdown();
 
 The **_shutdownNow()_** method tries to destroy the _ExecutorService_ immediately, but it doesn’t guarantee that all the running threads will be stopped at the same time:
 ```java
-es.shutDownNow();
+List<Runnable> notExecutedTasks = es.shutDownNow();
 ```
