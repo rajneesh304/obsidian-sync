@@ -9,3 +9,7 @@ Steps to follow:
 6. Execute the statement
 7. Close the connection
 
+```java
+String url = "jdbc:<oracle/postgresql>:<host>"
+
+```
