@@ -1,5 +1,6 @@
-- Footer
-	- Events
-	- Memberships
-	- mail:to
-	- 
+- [ ] Footer
+	- [ ] Events
+	- [ ] Memberships
+	- [ ] mail:to
+- [ ] Analytics -- Pixel 
+- [ ] 
