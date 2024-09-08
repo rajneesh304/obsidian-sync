@@ -55,3 +55,7 @@ List<Runnable> notExecutedTasks = es.shutDownNow();
 ## Fork/Join framework
 - It provides tools to help speed up parallel processing by attempting to use all available processor cores. It accomplishes this **through a divide and conquer approach.**
 - To provide effective parallel execution, the fork/join framework uses a pool of threads called the _ForkJoinPool_. This pool manages worker threads of type _ForkJoinWorkerThread_.
+
+### ForkJoinPool
+The _ForkJoinPool_ is the heart of the framework. It is an implementation of the _[ExecutorService](https://www.baeldung.com/java-executor-service-tutorial)_ that manages worker threads and provides us with tools to get information about the thread pool state and performance.
+### Work-Stealing Algorithm
