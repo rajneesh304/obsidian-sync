@@ -40,7 +40,13 @@ List<Future<String>> futures = executorService.invokeAll(callableTasks);
 
 #### **Shutting Down an _ExecutorService_**
 In general, the _ExecutorService_ will not be automatically destroyed when there is no task to process. It will stay alive and wait for new work to do.
+
+The _**shutdown()**_ method doesn’t cause immediate destruction of the _ExecutorService_. It will make the _ExecutorService_ stop accepting new tasks and shut down after all running threads finish their current work:
 ```java
 es.shutdown();
-es.shutdownNow();
+```
+
+The **_shutdownNow()_** method tries to destroy the _ExecutorService_ immediately, but it doesn’t guarantee that all the running threads will be stopped at the same time:
+```java
+es.shutDownNow();
 ```
