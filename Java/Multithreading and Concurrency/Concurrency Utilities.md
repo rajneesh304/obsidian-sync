@@ -10,5 +10,5 @@ public class ExecutorFactory {
       
 }
 ```
-- ExecutorService_ can execute _Runnable_ and _Callable_ tasks.
+- ExecutorService can execute _Runnable_ and _Callable_ tasks.
 - 
