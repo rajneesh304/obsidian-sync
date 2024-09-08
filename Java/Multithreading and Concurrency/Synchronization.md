@@ -15,3 +15,16 @@
 3. **Reentrancy:**
     - Java's intrinsic locks are reentrant, meaning that if a thread holds an intrinsic lock, it can re-enter any synchronized block or method that requires the same lock without being blocked.
     - This is useful in scenarios where synchronized methods or blocks call other synchronized methods on the same object.
+```java
+class Counter {
+    private int count = 0;
+
+    public synchronized void increment() { // This method is synchronized
+        count++;
+    }
+
+    public synchronized int getCount() { // This method is also synchronized
+        return count;
+    }
+}
+```
