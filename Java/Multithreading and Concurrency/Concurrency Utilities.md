@@ -38,4 +38,5 @@ String result = executorService.invokeAny(callableTasks);
 List<Future<String>> futures = executorService.invokeAll(callableTasks);
 ```
 
-####  **Shutting Down an _ExecutorService_**
+#### **Shutting Down an _ExecutorService_**
+In general, the _ExecutorService_ will not be automatically destroyed when there is no task to process. It will stay alive and wait for new work to do.
