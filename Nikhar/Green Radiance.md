@@ -1,0 +1,5 @@
+- Footer
+	- Events
+	- Memberships
+	- mail:to
+	- 
