@@ -60,4 +60,5 @@ List<Runnable> notExecutedTasks = es.shutDownNow();
 - The _ForkJoinPool_ is the heart of the framework. It is an implementation of the _[ExecutorService](https://www.baeldung.com/java-executor-service-tutorial)_ that manages worker threads and provides us with tools to get information about the thread pool state and performance.
 - Worker threads can execute only one task at a time, but the _ForkJoinPool_ doesn’t create a separate thread for every single subtask. Instead, each thread in the pool has its own double-ended queue that stores tasks.
 #### Work-Stealing Algorithm
+**Simply put, free threads try to “steal” work from deques of busy threads.**
 
