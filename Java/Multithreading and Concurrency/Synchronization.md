@@ -55,3 +55,5 @@ Synchronized block is **used to prevent multiple threads from executing a portio
 
 ---
 ## Reentrant Lock
+- The ReentrantLock class implements the Lock interface and provides synchronization to methods while accessing shared resources. The code which manipulates the shared resource is surrounded by calls to lock and unlock method. This gives a lock to the current working thread and blocks all other threads which are trying to take a lock on the shared resource.
+- 
