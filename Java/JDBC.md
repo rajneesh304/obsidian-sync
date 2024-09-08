@@ -10,6 +10,8 @@ Steps to follow:
 7. Close the connection
 
 ```java
-String url = "jdbc:<oracle/postgresql>:<host>"
+String url = "jdbc:<oracle/postgresql>://<host>:<port>/<schema>"
+Connection con = DriverManager.getConnection(url, username, password);
+
 
 ```
