@@ -53,3 +53,5 @@ The **_shutdownNow()_** method tries to destroy the _ExecutorService_ immediatel
 List<Runnable> notExecutedTasks = es.shutDownNow();
 ```
 ## Fork/Join framework
+- It provides tools to help speed up parallel processing by attempting to use all available processor cores. It accomplishes this **through a divide and conquer approach.**
+- To provide effective parallel execution, the fork/join framework uses a pool of threads called the _ForkJoinPool_. This pool manages worker threads of type _ForkJoinWorkerThread_.
