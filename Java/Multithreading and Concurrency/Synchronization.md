@@ -28,3 +28,23 @@ class Counter {
     }
 }
 ```
+---
+## Synchronized block
+```java
+class Counter {
+    private int count = 0;
+    private final Object lock = new Object(); // A dedicated lock object
+
+    public void increment() {
+        synchronized (lock) { // Synchronized block
+            count++;
+        }
+    }
+
+    public int getCount() {
+        synchronized (lock) { // Synchronized block
+            return count;
+        }
+    }
+}
+```
