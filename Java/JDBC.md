@@ -12,6 +12,10 @@ Steps to follow:
 ```java
 String url = "jdbc:<oracle/postgresql>://<host>:<port>/<schema>"
 Connection con = DriverManager.getConnection(url, username, password);
-
-
+Statement st = con.createStatement();
+ResultSet rs = st.executeQuery(sql);
+rs.next();
+String name = rs.getString(1);
 ```
+
+
