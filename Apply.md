@@ -15,3 +15,7 @@
 |                 | https://www.zeta.tech/in/careers/job-description?e5a3aec2-6eaf-44a5-b1e6-83452eaede79 |                |        |
 | Amazon          | https://www.amazon.jobs/en/jobs/2752353/software-development-engineer                 | Rishabh        |        |
 |                 | https://www.amazon.jobs/en/jobs/2717388/software-dev-engineer                         |                |        |
+|                 | https://www.amazon.jobs/en/jobs/2752339/software-development-engineer                 |                |        |
+|                 | https://www.amazon.jobs/en/jobs/2757260/software-development-engineer-amazon          |                |        |
+|                 | https://www.amazon.jobs/en/jobs/2752112/software-development-engineer-amazon          |                |        |
+|                 |                                                                                       |                |        |
