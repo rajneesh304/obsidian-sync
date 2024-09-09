@@ -2,3 +2,10 @@
 ``` sh
 docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Status}}\t{{.Ports}}"
 ```
+### Kill all containers and remove them
+```sh
+
+```
+
+```
+```
