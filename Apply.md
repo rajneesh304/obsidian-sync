@@ -11,3 +11,5 @@
 |                 | https://www.visa.co.in/en_in/jobs/REF039260W                                          |                |        |
 | Zeta            | https://www.zeta.tech/in/careers/job-description?2e9dbd48-cefd-49e5-82d8-97d4ad01e29e | Rishabh        |        |
 |                 | https://www.zeta.tech/in/careers/job-description?f173c3aa-80c3-4c8c-9d12-9626f774e239 |                |        |
+|                 | https://www.zeta.tech/in/careers/job-description?41a151dd-457e-439f-ae59-ca918535afd6 |                |        |
+|                 | https://www.zeta.tech/in/careers/job-description?e5a3aec2-6eaf-44a5-b1e6-83452eaede79 |                |        |
