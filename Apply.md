@@ -7,3 +7,5 @@
 | Visa            | https://www.visa.co.in/en_in/jobs/REF040883W                                       | Rishabh        |        |
 |                 | https://www.visa.co.in/en_in/jobs/REF048495W                                       |                |        |
 |                 | https://www.visa.co.in/en_in/jobs/REF048498W                                       |                |        |
+|                 | https://www.visa.co.in/en_in/jobs/REF047468W                                       |                |        |
+|                 | https://www.visa.co.in/en_in/jobs/REF039260W                                       |                |        |
