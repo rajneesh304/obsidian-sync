@@ -5,3 +5,5 @@
 | British Telecom |                                                                                    | Rishi Saraswat |        |
 | Goldman Sachs   | https://higher.gs.com/roles/133409                                                 | Rishabh        |        |
 | Visa            | https://www.visa.co.in/en_in/jobs/REF040883W                                       | Rishabh        |        |
+|                 | https://www.visa.co.in/en_in/jobs/REF048495W                                       |                |        |
+|                 | https://www.visa.co.in/en_in/jobs/REF048498W                                       |                |        |
