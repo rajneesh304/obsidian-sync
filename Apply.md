@@ -19,3 +19,4 @@
 |                 | https://www.amazon.jobs/en/jobs/2757260/software-development-engineer-amazon          |                |        |
 |                 | https://www.amazon.jobs/en/jobs/2752112/software-development-engineer-amazon          |                |        |
 | NTT Data        |                                                                                       | Mukut          |        |
+| MSFT            |                                                                                       | Mukut          |        |
