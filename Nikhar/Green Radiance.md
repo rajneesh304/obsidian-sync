@@ -19,3 +19,5 @@ Buildabang Machine:
 ssh -i $HOME/Downloads/ssh-key-2024-09-14.key ubuntu@152.67.6.34
 ```
 
+Install nvm:
+https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04#option-3-installing-node-using-the-node-version-manager
