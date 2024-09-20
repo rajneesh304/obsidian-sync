@@ -34,3 +34,10 @@ Nextjs references:
 1. https://github.com/vercel/next.js/tree/canary/examples/with-docker
 2. https://nextjs.org/docs/pages/building-your-application/deploying#docker-image
 3. https://stackoverflow.com/questions/74185594/how-to-deploy-a-next-js-app-on-https-ssl-connection-with-docker
+
+
+Certificate location: 
+```
+Certificate is saved at: /etc/letsencrypt/live/rajneesh.dev/fullchain.pem  
+Key is saved at:         /etc/letsencrypt/live/rajneesh.dev/privkey.pem
+```
