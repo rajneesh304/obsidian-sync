@@ -8,3 +8,6 @@ docker rm -v -f $(docker ps -qa)
 ```
 
 ### delete all the images
+```bash
+docker rmi -f $(docker images -aq)
+```
