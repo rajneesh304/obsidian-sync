@@ -40,6 +40,7 @@ Nextjs references:
 ```bash
 sudo apt update 
 sudo apt install certbot python3-certbot-nginx
+sudo certbot certonly --standalone -d your-domain.com -d www.your-domain.com
 
 ```
 Certificate location: 
