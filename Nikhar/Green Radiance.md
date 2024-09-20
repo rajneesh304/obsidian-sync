@@ -36,6 +36,12 @@ Nextjs references:
 3. https://stackoverflow.com/questions/74185594/how-to-deploy-a-next-js-app-on-https-ssl-connection-with-docker
 
 
+### Certificate setup
+```bash
+sudo apt update 
+sudo apt install certbot python3-certbot-nginx
+
+```
 Certificate location: 
 ```
 Certificate is saved at: /etc/letsencrypt/live/rajneesh.dev/fullchain.pem  
