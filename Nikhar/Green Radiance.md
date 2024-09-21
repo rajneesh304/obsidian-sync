@@ -49,4 +49,4 @@ Certificate is saved at: /etc/letsencrypt/live/rajneesh.dev/fullchain.pem
 Key is saved at:         /etc/letsencrypt/live/rajneesh.dev/privkey.pem
 ```
 
-### Not able to connect ot n 
+### Not able to connect to nextjs app from nginx docker
