@@ -50,4 +50,4 @@ Key is saved at:         /etc/letsencrypt/live/rajneesh.dev/privkey.pem
 ```
 
 ### Not able to connect to nextjs app from nginx docker
-1. fuck oracle: https://stackoverflow.com/questions/62326988/cant-access-oracle-cloud-always-free-compute-http-port
+1. fuck oracle: https://stackoverflow.com/questions/62326988/cant-access-oracle-cloud-always-free-compute-http-port #
