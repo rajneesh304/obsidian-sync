@@ -24,4 +24,8 @@
 |                 | https://jobs.careers.microsoft.com/global/en/job/1767451/Software-Engineer               |                |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1754610/Software-Engineer               |                |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1768982/Senior-Software-Engineer        |                |        |
+|                 | https://jobs.careers.microsoft.com/global/en/job/1744674/Software-Engineer---Backend     |                |        |
+|                 | https://jobs.careers.microsoft.com/global/en/job/1744715/Software-Engineer---Data        |                |        |
+|                 | https://jobs.careers.microsoft.com/global/en/job/1766348/Software-Engineer-2---Frontend  |                |        |
+|                 |                                                                                          |                |        |
 |                 |                                                                                          |                |        |
