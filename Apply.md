@@ -20,6 +20,8 @@
 |                 | https://www.amazon.jobs/en/jobs/2752112/software-development-engineer-amazon             |                |        |
 | NTT Data        |                                                                                          | Mukut          |        |
 | MSFT            | https://jobs.careers.microsoft.com/global/en/job/1727031/Software-Engineer               | Mukut          |        |
+|                 | https://jobs.careers.microsoft.com/global/en/job/1771867/Software-Engineering-IC3        |                |        |
+|                 | https://jobs.careers.microsoft.com/global/en/job/1771841/Software-Engineer-II            |                |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1769278/Software-Development-Engineer-2 |                |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1767451/Software-Engineer               |                |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1754610/Software-Engineer               |                |        |
