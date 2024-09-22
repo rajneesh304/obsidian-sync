@@ -31,4 +31,4 @@
 |                 | https://jobs.careers.microsoft.com/global/en/job/1744715/Software-Engineer---Data        |                |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1766348/Software-Engineer-2---Frontend  |                |        |
 | Atlassian       | https://www.atlassian.com/company/careers/details/11144                                  | Rishabh        |        |
-|                 |                                                                                          |                |        |
+| Amex            | https://aexp.eightfold.ai/careers/job/24894262                                           | Rishabh        |        |
