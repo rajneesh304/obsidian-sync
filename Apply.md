@@ -23,4 +23,5 @@
 |                 | https://jobs.careers.microsoft.com/global/en/job/1769278/Software-Development-Engineer-2 |                |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1767451/Software-Engineer               |                |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1754610/Software-Engineer               |                |        |
+|                 | https://jobs.careers.microsoft.com/global/en/job/1768982/Senior-Software-Engineer        |                |        |
 |                 |                                                                                          |                |        |
