@@ -19,7 +19,7 @@
 |                 | https://www.amazon.jobs/en/jobs/2757260/software-development-engineer-amazon             |                |        |
 |                 | https://www.amazon.jobs/en/jobs/2752112/software-development-engineer-amazon             |                |        |
 | NTT Data        |                                                                                          | Mukut          |        |
-| MSFT            | https://jobs.careers.microsoft.com/global/en/job/1727031/Software-Engineer               | Mukut          |        |
+| MSFT            | https://jobs.careers.microsoft.com/global/en/job/1727031/Software-Engineer               | Rishabh        |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1771867/Software-Engineering-IC3        |                |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1771841/Software-Engineer-II            |                |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1727031/Software-Engineer               |                |        |
@@ -30,5 +30,5 @@
 |                 | https://jobs.careers.microsoft.com/global/en/job/1744674/Software-Engineer---Backend     |                |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1744715/Software-Engineer---Data        |                |        |
 |                 | https://jobs.careers.microsoft.com/global/en/job/1766348/Software-Engineer-2---Frontend  |                |        |
-|                 |                                                                                          |                |        |
+| Atlassian       | https://www.atlassian.com/company/careers/details/11144                                  | Rishabh        |        |
 |                 |                                                                                          |                |        |
