@@ -35,7 +35,10 @@ Nextjs references:
 2. https://nextjs.org/docs/pages/building-your-application/deploying#docker-image
 3. https://stackoverflow.com/questions/74185594/how-to-deploy-a-next-js-app-on-https-ssl-connection-with-docker
 
-
+```bash
+# Docker command to build nextjs image
+docker build -t nextjs:latest -f Dockerfile .
+```
 ### Certificate setup
 ```bash
 sudo apt update 
