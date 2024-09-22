@@ -32,4 +32,7 @@
 |                 | https://jobs.careers.microsoft.com/global/en/job/1766348/Software-Engineer-2---Frontend  |                |        |
 | Atlassian       | https://www.atlassian.com/company/careers/details/11144                                  | Rishabh        |        |
 | Amex            | https://aexp.eightfold.ai/careers/job/24894262                                           | Rishabh        |        |
-| Zeta            |                                                                                          |                |        |
+| Zeta            | https://www.zeta.tech/in/careers/job-description?2e9dbd48-cefd-49e5-82d8-97d4ad01e29e    | Rishabh        |        |
+|                 | www.zeta.tech/in/careers/job-description/?f173c3aa-80c3-4c8c-9d12-9626f774e239           |                |        |
+|                 | www.zeta.tech/in/careers/job-description/?4efc1d29-c629-4e89-8780-e8866fd93b31           |                |        |
+|                 |                                                                                          |                |        |
