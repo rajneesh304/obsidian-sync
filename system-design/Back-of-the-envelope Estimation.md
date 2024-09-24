@@ -39,3 +39,6 @@ Typically, services aim for availability in the range of 99% to 100%.
 An SLA is a formal agreement between a service provider and a customer. This formally defines the level of uptime your service needs to support.
 
 Cloud providers typically set their uptime at 99.9% or more. Eg AWS EC2 has an SLA of 99.99%
+
+![[sla-chart.png]]
+
