@@ -42,3 +42,5 @@ Cloud providers typically set their uptime at 99.9% or more. Eg AWS EC2 has an S
 
 ![[sla-chart.png]]
 
+_Commonly asked estimations to make - QPS (queries per second), peak QPS, storage, cache, number of servers._
+
