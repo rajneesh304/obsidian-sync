@@ -25,3 +25,10 @@ Read 1mb sequentially from disk == 30ms
 Send packet CA->Netherlands->CA == 150ms
 ```
 
+- Memory is fast, disk is slow
+- Avoid disk seeks if possible
+- Compression is usually fast
+- Compress data before sending over the network if possible
+- Data centers round trips are expensive
+
+## Availability numbers
