@@ -27,7 +27,6 @@ git branch -d <branch-name>
 ```
 git branch -D <branch-name>
 ```
-
 ### To push a local branch to git which does not have mapping on github
 We need to map the local branch to an upstream branch
 ```
