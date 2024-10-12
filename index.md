@@ -1,4 +1,4 @@
 ```dataview
-TABLE file.path AS "File Path" FROM "" SORT file.name ASC
+TABLE FROM "" SORT file.name ASC
 ```
 
