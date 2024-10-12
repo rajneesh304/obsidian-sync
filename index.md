@@ -1,8 +1,8 @@
-
-```dataviewjs 
+```dataviewjs
 let pages = dv.pages().file.path;
 let folderStructure = {};
 
+// Building the folder structure
 pages.forEach(page => {
     let parts = page.split('/');
     let fileName = parts.pop();
@@ -21,20 +21,25 @@ pages.forEach(page => {
     currentFolder['_files'].push(page);
 });
 
+// Rendering the folder structure
 function renderFolderStructure(folder, indent = 0) {
     let indentSpace = ' '.repeat(indent * 4);
     for (let folderName in folder) {
         if (folderName === '_files') {
             folder[folderName].forEach(filePath => {
                 let fileName = filePath.split('/').pop();
-                dv.paragraph(`${indentSpace}- `).append(dv.fileLink(filePath, fileName));
+                dv.span(`${indentSpace}- `).append(dv.fileLink(filePath, fileName));
+                dv.el('br');
             });
         } else {
-            dv.header(3, `${indentSpace}${folderName}`);
+            dv.span(`${indentSpace}**${folderName}**`);
+            dv.el('br');
             renderFolderStructure(folder[folderName], indent + 1);
         }
     }
 }
+
+// Call the rendering function
 renderFolderStructure(folderStructure);
 
 ```
