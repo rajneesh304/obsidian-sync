@@ -1,5 +1,5 @@
 ```dataviewjs
-const root = "/"; // Set root folder if necessary
+const root = ""; // Set root folder if necessary
 
 function renderFolder(folderPath, indentLevel) {
     const indent = " ".repeat(indentLevel * 2); // Adjust the indent for readability
@@ -13,7 +13,7 @@ function renderFolder(folderPath, indentLevel) {
     folderPages
         .where(p => p.file.folder === folderPath)
         .forEach(file => {
-            dv.list([`${indent}  - [${file.file.name}](${file.file.path})`]); // Create clickable file links
+            dv.list([`${indent}  - [[${file.file.name}|${file.file.path}]]`]); // Create clickable file links
         });
 
     // Recursively render subfolders
