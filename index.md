@@ -1,15 +1,39 @@
 ```dataviewjs 
-let title = "File Hierarchy"; let dir = ""; // Replace with your folder path 
-let processed = []; function listRecursive(folder, depth) {     
-let files = [];    
-let pages = dv.pages('"' + folder + '"');     
-let currentFiles = "";     
-pages.forEach(page => {        
-if (page.file.folder === folder) {            
-	currentFiles += page.file.link + " | ";        } 
-else {            
-	let nestedFolder = page.file.folder;            
-	let isChild = folder.split('/').length + 1 === nestedFolder.split('/').length;             
-		if (!processed.includes(nestedFolder) && isChild) {  processed.push(nestedFolder);                files.push(listRecursive(nestedFolder, depth + 1));            }        }    });     if (currentFiles.endsWith(" | ")) {        currentFiles = currentFiles.slice(0, -3);    }     if (currentFiles !== "") files.unshift(currentFiles);         let path = folder.split('/').pop();    if (depth === 0) path = path;     files.unshift("<h3>" + path + "</h3>");    return files; } let files = listRecursive(dir, 0); dv.header(3, title); dv.list(files);
+let pages = dv.pages().file.path;
+let folderStructure = {};
+
+pages.forEach(page => {
+    let parts = page.split('/');
+    let fileName = parts.pop();
+    let currentFolder = folderStructure;
+
+    parts.forEach(part => {
+        if (!currentFolder[part]) {
+            currentFolder[part] = {};
+        }
+        currentFolder = currentFolder[part];
+    });
+
+    if (!currentFolder['_files']) {
+        currentFolder['_files'] = [];
+    }
+    currentFolder['_files'].push(fileName);
+});
+
+function renderFolderStructure(folder, indent = 0) {
+    let indentSpace = ' '.repeat(indent * 4);
+    for (let folderName in folder) {
+        if (folderName === '_files') {
+            folder[folderName].forEach(file => {
+                dv.paragraph(`${indentSpace}- ${file}`);
+            });
+        } else {
+            dv.header(3, `${indentSpace}${folderName}`);
+            renderFolderStructure(folder[folderName], indent + 1);
+        }
+    }
+}
+
+renderFolderStructure(folderStructure);
 
 ```
