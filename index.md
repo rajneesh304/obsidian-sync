@@ -7,7 +7,7 @@ function renderFolder(folderPath, indentLevel) {
     const subfolders = [...new Set(folderPages.map(p => p.file.folder))].filter(f => f !== folderPath);
 
     // Display current folder name
-    dv.paragraph(`${indent}- **${folderPath}**`);
+    dv.paragraph(`${indent}- ${folderPath}`);
 
     // List all files in the current folder
     folderPages
