@@ -28,8 +28,8 @@ function renderFolderStructure(folder, indent = 0) {
         if (folderName === '_files') {
             folder[folderName].forEach(filePath => {
                 let fileName = filePath.split('/').pop();
-                dv.span(`${indentSpace}- `).append(`[[${filePath}]]`);
-                dv.el('br');
+                dv.span(`${indentSpace}- `).append(`[[${filePath}|${fileName}]]`);
+            
             });
         } else {
             dv.span(`${indentSpace}**${folderName}**`);
@@ -46,4 +46,5 @@ renderFolderStructure(folderStructure);
 
 
 
-[avc|RAG]
+[[avc|RAG]]
+
