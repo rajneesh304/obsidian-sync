@@ -1,5 +1,5 @@
 ```dataview
-TABLE file.name AS "File Name", file.path AS "File Path" FROM "" WHERE !contains(file.path, "/index.md") 
+LIST file.name AS "File Name", file.path AS "File Path" FROM "" WHERE  
 SORT file.name ASC
 ```
 
