@@ -1,3 +1,4 @@
+
 ```dataviewjs 
 let pages = dv.pages().file.path;
 let folderStructure = {};
@@ -17,15 +18,16 @@ pages.forEach(page => {
     if (!currentFolder['_files']) {
         currentFolder['_files'] = [];
     }
-    currentFolder['_files'].push(fileName);
+    currentFolder['_files'].push(page);
 });
 
 function renderFolderStructure(folder, indent = 0) {
     let indentSpace = ' '.repeat(indent * 4);
     for (let folderName in folder) {
         if (folderName === '_files') {
-            folder[folderName].forEach(file => {
-                dv.paragraph(`${indentSpace}- ${file}`);
+            folder[folderName].forEach(filePath => {
+                let fileName = filePath.split('/').pop();
+                dv.paragraph(`${indentSpace}- `).append(dv.fileLink(filePath, fileName));
             });
         } else {
             dv.header(3, `${indentSpace}${folderName}`);
@@ -33,7 +35,6 @@ function renderFolderStructure(folder, indent = 0) {
         }
     }
 }
-
 renderFolderStructure(folderStructure);
 
 ```
