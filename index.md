@@ -29,11 +29,11 @@ function renderFolderStructure(folder, indent = 0) {
             folder[folderName].forEach(filePath => {
                 let fileName = filePath.split('/').pop();
                 dv.span(`${indentSpace}- `).append(`[[${filePath}|${fileName}]]`);
-                dv.el('br');
+                
             });
         } else {
             dv.span(`${indentSpace}**${folderName}**`);
-            dv.el('br');
+            
             renderFolderStructure(folder[folderName], indent + 1);
         }
     }
