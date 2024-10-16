@@ -34,31 +34,17 @@ Definitions :
   
 
 Requirements :
-
 - We should be able to create boards. Boards can be public or private - determining view access across teams as well as delete access across teams.
-    
 - Add/remove people from the members list of the Board (team members).
-    
 - We should be able to create Lists under a Board.
-    
 - We should be able to create Cards under a list.
-    
 - Add capability to assign/unassign a member to a Card. Cards should be unassigned by default.
-    
 - Capability to delete any Board, List and Card.
-    
-
 - Deleting a List should delete all cards inside it.
-    
 - Deleting a Board should delete all lists inside it.
-    
-
 - We should be able to view a Board, along with its Lists, and Cards.
-    
 - Cards inside a list should be sorted by priority by default - highest(P0) to lowest(P2).
-    
 - Build capability to delete User.
-    
 - We should also be able to move cards/tasks across lists (lists can be part of other boards/projects). Allow cards/tasks to be moved only to Public privacy boards, unless the member performing this task actually belongs to the board.
     
 
