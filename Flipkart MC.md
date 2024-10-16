@@ -33,7 +33,7 @@ Definitions :
   
   
 
-Requirements :
+#### Requirements :
 - We should be able to create boards. Boards can be public or private - determining view access across teams as well as delete access across teams.
 - Add/remove people from the members list of the Board (team members).
 - We should be able to create Lists under a Board.
@@ -46,17 +46,8 @@ Requirements :
 - Cards inside a list should be sorted by priority by default - highest(P0) to lowest(P2).
 - Build capability to delete User.
 - We should also be able to move cards/tasks across lists (lists can be part of other boards/projects). Allow cards/tasks to be moved only to Public privacy boards, unless the member performing this task actually belongs to the board.
-    
 
-  
-  
-  
-  
-  
-  
-  
-
-Bonus (only attempt if time permits) :
+#### Bonus (only attempt if time permits) :
 
 - If each Card/task has an attribute called ‘time to complete’, and each person has a ‘time quota’, then only assign a task if ‘time to complete’ <= the person’s remaining ‘time quota’.
     
