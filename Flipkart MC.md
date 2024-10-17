@@ -1,38 +1,17 @@
 # Task management platform
-
-  
-
 Create a Task management application where you can manage your project by tracking small tasks. 
 
-  
-
 About the platform :
-
 - The application contains multiple Boards,  to signify teams.
-    
 - Each board contains different Lists to signify projects.
-    
 - Each list contains different Cards  to signify tasks in the projects.
-    
 - Each card can be assigned to a user or may remain unassigned.
-    
-
-  
 
 Definitions :
-
 - Board: Each board should have an id, name, team members, lists.
-    
 - List: Each list should have an id, name and cards .
-    
 - Card: Each card should have an id, name, assigned user, priority. Priorities can be P0 (highest), P1 and P2 (lowest).
-    
 - User: Each user should have a userId, name, email.
-    
-
-  
-  
-
 #### Requirements :
 - We should be able to create boards. Boards can be public or private - determining view access across teams as well as delete access across teams.
 - Add/remove people from the members list of the Board (team members).
@@ -48,18 +27,11 @@ Definitions :
 - We should also be able to move cards/tasks across lists (lists can be part of other boards/projects). Allow cards/tasks to be moved only to Public privacy boards, unless the member performing this task actually belongs to the board.
 
 #### Bonus (only attempt if time permits) :
-
 - If each Card/task has an attribute called ‘time to complete’, and each person has a ‘time quota’, then only assign a task if ‘time to complete’ <= the person’s remaining ‘time quota’.
-    
-
-  
 
 # Expectations :
-
 1. Make sure that you have working, functionally correct and demonstrable code.
-    
 2. Work on the expected output first and then add good-to-have features of your own.
-    
 3. Code should be modular, readable and testable.
     
 4. Separation of concern should be addressed.
