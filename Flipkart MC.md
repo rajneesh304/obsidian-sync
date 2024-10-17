@@ -33,30 +33,15 @@ Definitions :
 1. Make sure that you have working, functionally correct and demonstrable code.
 2. Work on the expected output first and then add good-to-have features of your own.
 3. Code should be modular, readable and testable.
-    
 4. Separation of concern should be addressed.
-    
 5. Code should easily accommodate new requirements with minimal changes.
-    
-
-  
-  
 
 Other Details :
-
 1. Do not use any database or NoSQL store, use in-memory data-structure for simplicity. 
-    
 2. Do not create any UI for the application.
-    
 3. Write a driver class for demo purposes. Which will execute all the features at one place in the code to test all cases.
-    
-
-  
-  
 
 Sample Test Cases/Data :
-
-  
 
 BOARD CREATE : should print the id after creation.
 
