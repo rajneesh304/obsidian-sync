@@ -41,3 +41,7 @@ Futuretopics:
 
 - **Tools and Techniques:** Get familiar with tools like `jstack`, `VisualVM`, and `JConsole` for monitoring and debugging multithreaded applications.
 - **Testing Concurrency:** Learn how to write unit tests for concurrent code, including stress testing and the use of tools like `ConcurrencyTest` from TestNG.
+
+
+# References
+1. https://github.com/code-review-checklists/java-concurrency 
