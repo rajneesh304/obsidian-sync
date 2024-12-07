@@ -11,3 +11,6 @@ curl "https://downloads.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz" -o ~/Downlo
   --partitions 1 \
   --topic TutorialTopic
 ```
+
+2. Kafka default port: `9092`
+3. 
