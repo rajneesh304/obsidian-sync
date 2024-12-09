@@ -28,3 +28,8 @@ curl "https://downloads.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz" -o ~/Downlo
 ```bash
 /home/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic topic-2 --from-beginning --partition 0
 ```
+
+``` mail-creds
+spring.mail.password=xumt jxie rmxs bgkm
+```
+
