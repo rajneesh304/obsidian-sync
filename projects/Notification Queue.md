@@ -9,7 +9,7 @@ curl "https://downloads.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz" -o ~/Downlo
   --bootstrap-server localhost:9092 \
   --replication-factor 1 \
   --partitions 1 \
-  --topic TutorialTopic
+  --topic notification-topic
 ```
 
 2. Kafka default port: `9092`
