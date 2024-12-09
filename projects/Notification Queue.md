@@ -18,13 +18,9 @@ curl "https://downloads.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz" -o ~/Downlo
 # Commands
 1. Creat
    ```
-   ~/kafka/bin/kafka-topics.sh --create \
-  --bootstrap-server localhost:9092 \ ```
+   
+     ```
 
-```
-  
-  
-```
 2. Producer command
 ```bash
 /home/kafka/bin/kafka-console-producer.sh --broker-list localhost:9092 --topic notification-topic < /home/kafka/jsondata.json
