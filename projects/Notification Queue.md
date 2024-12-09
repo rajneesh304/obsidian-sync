@@ -13,4 +13,8 @@ curl "https://downloads.apache.org/kafka/3.9.0/kafka_2.13-3.9.0.tgz" -o ~/Downlo
 ```
 
 2. Kafka default port: `9092`
-3. 
+3. [Kafka Producer consumer sample app](https://medium.com/simform-engineering/kafka-integration-made-easy-with-spring-boot-b7aaf44d8889)
+4. Producer command
+```bash
+./kafka-console-producer.sh --broker-list localhost:9092 --topic notification-topic < /home/kafka/jsondata.json
+```
