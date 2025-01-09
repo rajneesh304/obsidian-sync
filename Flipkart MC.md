@@ -29,14 +29,14 @@ Definitions :
 #### Bonus (only attempt if time permits) :
 - If each Card/task has an attribute called ‘time to complete’, and each person has a ‘time quota’, then only assign a task if ‘time to complete’ <= the person’s remaining ‘time quota’.
 
-# Expectations :
+#### Expectations :
 1. Make sure that you have working, functionally correct and demonstrable code.
 2. Work on the expected output first and then add good-to-have features of your own.
 3. Code should be modular, readable and testable.
 4. Separation of concern should be addressed.
 5. Code should easily accommodate new requirements with minimal changes.
 
-Other Details :
+####Other Details :
 1. Do not use any database or NoSQL store, use in-memory data-structure for simplicity. 
 2. Do not create any UI for the application.
 3. Write a driver class for demo purposes. Which will execute all the features at one place in the code to test all cases.
