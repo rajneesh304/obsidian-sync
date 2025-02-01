@@ -84,7 +84,6 @@
 		  - leetcode.com/problems/binary-search/
 		  - leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 		  - leetcode.com/problems/peak-index-in-a-mountain-array/
-
 2. ***Stacks***
 	1. Monotonic Stack
 		- Uses: Finding next/previous greater/smaller element
@@ -117,7 +116,6 @@
 		- LeetCode examples:
 		    - leetcode.com/problems/design-browser-history/
 		    - leetcode.com/problems/implement-queue-using-stacks/
-
 3. ***Queues***
 	1. BFS Queue
 	- Uses: Level-order traversal, shortest path
@@ -149,3 +147,23 @@
 	- LeetCode examples:
 	    - leetcode.com/problems/number-of-recent-calls/
 	    - leetcode.com/problems/design-hit-counter/
+4. ***Hybrid questions on queues and stacks***
+	1. Stack and Queue Together
+	
+	- Uses: Implementing complex data structures
+	- Real applications: LRU cache, task management
+	- LeetCode examples:
+	    - leetcode.com/problems/implement-queue-using-stacks/
+	    - leetcode.com/problems/implement-stack-using-queues/
+	1. Multiple Stack/Queue
+	- Uses: Task scheduling, resource allocation
+	- Real applications: Process management, parallel processing
+	- LeetCode examples:
+	    - leetcode.com/problems/design-a-stack-with-increment-operation/
+	    - leetcode.com/problems/implement-stack-using-queues/
+	2. Monotonic Queue
+	- Uses: Sliding window problems, optimization
+	- Real applications: Stock market analysis
+	- LeetCode examples:
+	    - leetcode.com/problems/sliding-window-maximum/
+	    - leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
