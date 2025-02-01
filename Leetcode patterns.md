@@ -85,6 +85,46 @@
 		  - leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 		  - leetcode.com/problems/peak-index-in-a-mountain-array/
 
-2. 
+2. ***Stacks***
+	1. Monotonic Stack
+	
+	- Uses: Finding next/previous greater/smaller element
+	- Real applications: Stock span, temperature problems
+	- LeetCode examples:
+	    - leetcode.com/problems/daily-temperatures/
+	    - leetcode.com/problems/next-greater-element-i/
+	
+	2. Expression Evaluation/Parsing
+	
+	- Uses: Evaluating arithmetic expressions, bracket matching
+	- Real applications: Calculator implementation, syntax validation
+	- LeetCode examples:
+	    - leetcode.com/problems/valid-parentheses/
+	    - leetcode.com/problems/basic-calculator/
+	    - leetcode.com/problems/evaluate-reverse-polish-notation/
+	
+	3. Stack with Auxiliary Data Structure
+	
+	- Uses: Min/Max stack implementation, history tracking
+	- Real applications: Undo/Redo functionality
+	- LeetCode examples:
+	    - leetcode.com/problems/min-stack/
+	    - leetcode.com/problems/maximum-frequency-stack/
+	
+	4. Iterative DFS using Stack
+	
+	- Uses: Tree/Graph traversal without recursion
+	- Real applications: Memory-efficient traversal
+	- LeetCode examples:
+	    - leetcode.com/problems/binary-tree-inorder-traversal/
+	    - leetcode.com/problems/clone-graph/
+	
+	5. Stack for State Management
+	
+	- Uses: Maintaining state history, backtracking
+	- Real applications: Browser history, text editor operations
+	- LeetCode examples:
+	    - leetcode.com/problems/design-browser-history/
+	    - leetcode.com/problems/implement-queue-using-stacks/
 
 
