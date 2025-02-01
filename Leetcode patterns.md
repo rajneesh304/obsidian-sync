@@ -149,19 +149,18 @@
 	    - leetcode.com/problems/design-hit-counter/
 4. ***Hybrid questions on queues and stacks***
 	1. Stack and Queue Together
-	
 	- Uses: Implementing complex data structures
 	- Real applications: LRU cache, task management
 	- LeetCode examples:
 	    - leetcode.com/problems/implement-queue-using-stacks/
 	    - leetcode.com/problems/implement-stack-using-queues/
-	1. Multiple Stack/Queue
+	2. Multiple Stack/Queue
 	- Uses: Task scheduling, resource allocation
 	- Real applications: Process management, parallel processing
 	- LeetCode examples:
 	    - leetcode.com/problems/design-a-stack-with-increment-operation/
 	    - leetcode.com/problems/implement-stack-using-queues/
-	2. Monotonic Queue
+	3. Monotonic Queue
 	- Uses: Sliding window problems, optimization
 	- Real applications: Stock market analysis
 	- LeetCode examples:
