@@ -118,4 +118,34 @@
 		    - leetcode.com/problems/design-browser-history/
 		    - leetcode.com/problems/implement-queue-using-stacks/
 
-3. Queues
+3. ***Queues***
+	1. BFS Queue
+	- Uses: Level-order traversal, shortest path
+	- Real applications: Network broadcast, web crawling
+	- LeetCode examples:
+	    - leetcode.com/problems/binary-tree-level-order-traversal/
+	    - leetcode.com/problems/rotting-oranges/
+	2. Deque (Double-ended queue)
+	- Uses: Sliding window maximum/minimum
+	- Real applications: Task scheduling, resource management
+	- LeetCode examples:
+	    - leetcode.com/problems/sliding-window-maximum/
+	    - leetcode.com/problems/design-circular-deque/
+	3. Priority Queue
+	- Uses: K-th largest/smallest element, event scheduling
+	- Real applications: Task scheduling, network routing
+	- LeetCode examples:
+	    - leetcode.com/problems/top-k-frequent-elements/
+	    - leetcode.com/problems/merge-k-sorted-lists/
+	4. Circular Queue
+	- Uses: Fixed-size cyclic buffer
+	- Real applications: Stream processing, memory buffers
+	- LeetCode examples:
+	    - leetcode.com/problems/design-circular-queue/
+	    - leetcode.com/problems/design-hit-counter/
+	5. Queue with History
+	- Uses: Recent calls counter, rate limiting
+	- Real applications: API rate limiting, caching
+	- LeetCode examples:
+	    - leetcode.com/problems/number-of-recent-calls/
+	    - leetcode.com/problems/design-hit-counter/
