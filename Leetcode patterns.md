@@ -37,65 +37,65 @@
 	  - leetcode.com/problems/partition-labels/
 
 6. Divide and Conquer
-- Use cases: Sorting algorithms, binary search variations, complex array manipulations
-- LeetCode problems:
-  - leetcode.com/problems/merge-sorted-array/
-  - leetcode.com/problems/search-in-rotated-sorted-array/
-  - leetcode.com/problems/maximum-subarray/
+	- Use cases: Sorting algorithms, binary search variations, complex array manipulations
+	- LeetCode problems:
+	  - leetcode.com/problems/merge-sorted-array/
+	  - leetcode.com/problems/search-in-rotated-sorted-array/
+	  - leetcode.com/problems/maximum-subarray/
 
 7. In-place Modification
-- Use cases: Space-optimized array operations, array rotations
-- LeetCode problems:
-  - leetcode.com/problems/rotate-array/
-  - leetcode.com/problems/move-zeroes/
+	- Use cases: Space-optimized array operations, array rotations
+	- LeetCode problems:
+	  - leetcode.com/problems/rotate-array/
+	  - leetcode.com/problems/move-zeroes/
 
 8. Kadane's Algorithm
-- Use cases: Maximum subarray problems, continuous sequence optimizations
-- LeetCode problems:
-  - leetcode.com/problems/maximum-subarray/
-  - leetcode.com/problems/best-time-to-buy-and-sell-stock/
+	- Use cases: Maximum subarray problems, continuous sequence optimizations
+	- LeetCode problems:
+	  - leetcode.com/problems/maximum-subarray/
+	  - leetcode.com/problems/best-time-to-buy-and-sell-stock/
 
 9. Matrix Traversal
-- Use cases: 2D array processing, spiral patterns, diagonal traversal
-- LeetCode problems:
-  - leetcode.com/problems/spiral-matrix/
-  - leetcode.com/problems/diagonal-traverse/
-  - leetcode.com/problems/rotate-image/
+	- Use cases: 2D array processing, spiral patterns, diagonal traversal
+	- LeetCode problems:
+	  - leetcode.com/problems/spiral-matrix/
+	  - leetcode.com/problems/diagonal-traverse/
+	  - leetcode.com/problems/rotate-image/
 
 10. Fast and Slow Pointers
-- Use cases: Cycle detection, middle element finding
-- LeetCode problems:
-  - leetcode.com/problems/find-the-duplicate-number/
-  - leetcode.com/problems/middle-of-the-linked-list/
+	- Use cases: Cycle detection, middle element finding
+	- LeetCode problems:
+	  - leetcode.com/problems/find-the-duplicate-number/
+	  - leetcode.com/problems/middle-of-the-linked-list/
 
 11. Dutch National Flag
-- Use cases: Three-way partitioning, grouping similar elements
-- LeetCode problems:
-  - leetcode.com/problems/sort-colors/
-  - leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/
+	- Use cases: Three-way partitioning, grouping similar elements
+	- LeetCode problems:
+	  - leetcode.com/problems/sort-colors/
+	  - leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/
 
 12. Merge Intervals
-- Use cases: Schedule/interval problems, overlapping intervals
-- LeetCode problems:
-  - leetcode.com/problems/merge-intervals/
-  - leetcode.com/problems/insert-interval/
-  - leetcode.com/problems/non-overlapping-intervals/
+	- Use cases: Schedule/interval problems, overlapping intervals
+	- LeetCode problems:
+	  - leetcode.com/problems/merge-intervals/
+	  - leetcode.com/problems/insert-interval/
+	  - leetcode.com/problems/non-overlapping-intervals/
 
 13. Cyclic Sort
-- Use cases: Array problems where numbers are in range [1...n]
-- LeetCode problems:
-  - leetcode.com/problems/find-all-duplicates-in-an-array/
-  - leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+	- Use cases: Array problems where numbers are in range [1...n]
+	- LeetCode problems:
+	  - leetcode.com/problems/find-all-duplicates-in-an-array/
+	  - leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 
 14. Reversal
-- Use cases: String reversal, array rotation, palindrome problems
-- LeetCode problems:
-  - leetcode.com/problems/reverse-string/
-  - leetcode.com/problems/rotate-array/
+	- Use cases: String reversal, array rotation, palindrome problems
+	- LeetCode problems:
+	  - leetcode.com/problems/reverse-string/
+	  - leetcode.com/problems/rotate-array/
 
 15. Binary Search Variations
-- Use cases: Sorted array searching, finding peak elements, rotated arrays
-- LeetCode problems:
-  - leetcode.com/problems/binary-search/
-  - leetcode.com/problems/find-minimum-in-rotated-sorted-array/
-  - leetcode.com/problems/peak-index-in-a-mountain-array/
+	- Use cases: Sorted array searching, finding peak elements, rotated arrays
+	- LeetCode problems:
+	  - leetcode.com/problems/binary-search/
+	  - leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+	  - leetcode.com/problems/peak-index-in-a-mountain-array/
