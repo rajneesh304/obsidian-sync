@@ -6,4 +6,6 @@
 	3. Traversing from right
 	4. Sorting the array
 	5. Precomputation
-	6. 
+	6. Index as a hash key
+	7. Traversing the array more than once
+	8. 
