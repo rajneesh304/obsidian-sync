@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"f2d576e00f8a049f","type":"file","file":"design-patterns/Factory pattern.png","x":-300,"y":-320,"width":1012,"height":660},
 		{"id":"330a284fa603a5e0","type":"file","file":"design-patterns/Factory pattern implementation.png","x":-300,"y":386,"width":1012,"height":714},
-		{"id":"c369ec2d7261a052","x":-300,"y":1200,"width":1012,"height":1148,"type":"file","file":"Abstract factory.png"}
+		{"id":"c369ec2d7261a052","x":-300,"y":1200,"width":1012,"height":1148,"type":"file","file":"apna_stuff/design-patterns/Abstract factory.png"}
 	],
 	"edges":[]
 }
