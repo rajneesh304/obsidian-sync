@@ -1,4 +1,6 @@
 {
-	"nodes":[],
+	"nodes":[
+		{"id":"f2d576e00f8a049f","x":-300,"y":-320,"width":1012,"height":660,"type":"file","file":"Factory pattern.png"}
+	],
 	"edges":[]
 }
