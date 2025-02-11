@@ -32,3 +32,6 @@
 |                 | www.zeta.tech/in/careers/job-description/?f173c3aa-80c3-4c8c-9d12-9626f774e239           |                              |           |
 |                 | www.zeta.tech/in/careers/job-description/?4efc1d29-c629-4e89-8780-e8866fd93b31           |                              |           |
 |                 | https://www.zeta.tech/in/careers/job-description?41a151dd-457e-439f-ae59-ca918535afd6    |                              |           |
+
+
+Hiring manager Microsoft: https://www.linkedin.com/in/ashish-7-kumar/
