@@ -5,7 +5,7 @@
 		{"id":"c369ec2d7261a052","type":"file","file":"apna_stuff/design-patterns/Abstract factory.png","x":-300,"y":1200,"width":1012,"height":1148},
 		{"id":"d14ac4dd8e45ebac","type":"text","text":"All factory patterns encapsulate object creation. The Factory Method Pattern encapsulates object creation by letting subclasses decide what objects to create.","x":-300,"y":-468,"width":1012,"height":108},
 		{"id":"17e3348d1fa6c273","type":"file","file":"apna_stuff/design-patterns/Factory pattern - class diagram.png","x":-300,"y":2440,"width":1012,"height":1103},
-		{"id":"8381a6a3a7fb5de5","x":920,"y":-320,"width":1386,"height":1240,"type":"file","file":"Command pattern.png"}
+		{"id":"8381a6a3a7fb5de5","x":920,"y":-320,"width":1073,"height":960,"type":"file","file":"Command pattern.png"}
 	],
 	"edges":[]
 }
