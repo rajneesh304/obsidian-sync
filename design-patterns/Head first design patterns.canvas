@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"440d8a0456ec3c55","x":1465,"y":1497,"width":250,"height":60,"type":"text","text":"The Facade Pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use."},
 		{"id":"f2d576e00f8a049f","type":"file","file":"apna_stuff/design-patterns/Simple factory.png","x":-300,"y":-320,"width":1012,"height":660},
 		{"id":"330a284fa603a5e0","type":"file","file":"apna_stuff/design-patterns/simple Factory implementation.png","x":-300,"y":400,"width":1012,"height":714},
 		{"id":"c369ec2d7261a052","type":"file","file":"apna_stuff/design-patterns/Factory pattern.png","x":-300,"y":1200,"width":1012,"height":1148},
 		{"id":"d14ac4dd8e45ebac","type":"text","text":"All factory patterns encapsulate object creation. The Factory Method Pattern encapsulates object creation by letting subclasses decide what objects to create.","x":-300,"y":-468,"width":1012,"height":108},
 		{"id":"17e3348d1fa6c273","type":"file","file":"apna_stuff/design-patterns/Factory pattern - class diagram.png","x":-300,"y":2400,"width":1012,"height":1103},
 		{"id":"8381a6a3a7fb5de5","type":"file","file":"apna_stuff/design-patterns/Command pattern.png","x":920,"y":-320,"width":1073,"height":960},
-		{"id":"fe6a8cb36d4a5ec6","type":"file","file":"apna_stuff/design-patterns/Adapter pattern.png","x":920,"y":720,"width":1073,"height":837}
+		{"id":"fe6a8cb36d4a5ec6","type":"file","file":"apna_stuff/design-patterns/Adapter pattern.png","x":920,"y":720,"width":1073,"height":837},
+		{"id":"175c3bbee0fc0132","x":920,"y":1640,"width":1073,"height":80,"type":"text","text":"**The Facade Pattern** provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use."}
 	],
 	"edges":[]
 }
