@@ -1,14 +1,14 @@
 {
 	"nodes":[
+		{"id":"736454481f7a8165","type":"file","file":"educative/databases/Single Leader.md","x":140,"y":-115,"width":257,"height":435},
 		{"id":"426a1201dfcfbaa4","type":"text","text":"Synchronous & Asynchronous replication","x":-360,"y":-280,"width":400,"height":50},
 		{"id":"1fe6038c6383bf33","type":"file","file":"educative/databases/Synchronous vs asynchronous replication.png","x":-360,"y":-180,"width":400,"height":360},
 		{"id":"076e67820b9b0bf8","type":"text","text":"Data Replication Models","x":440,"y":-280,"width":250,"height":50},
 		{"id":"914a0e6df45e42f6","type":"text","text":"Multi-leader replication","x":480,"y":-115,"width":250,"height":66},
-		{"id":"2d2e098e9d46a411","type":"text","text":"Peer-to-peer or leaderless replication","x":800,"y":-115,"width":250,"height":60},
-		{"id":"10173793907d5b7c","type":"text","text":"**Single Leader or primary-secondary replication**\n\nIn **primary-secondary replication,** data is replicated across multiple nodes. One node is designated as the primary. It’s responsible for processing any writes to data stored on the cluster. It also sends all the writes to the secondary nodes and keeps them in sync.","x":140,"y":-115,"width":257,"height":435}
+		{"id":"2d2e098e9d46a411","type":"text","text":"Peer-to-peer or leaderless replication","x":800,"y":-115,"width":250,"height":60}
 	],
 	"edges":[
-		{"id":"16c40ee035095db8","fromNode":"076e67820b9b0bf8","fromSide":"bottom","toNode":"10173793907d5b7c","toSide":"top"},
+		{"id":"16c40ee035095db8","fromNode":"076e67820b9b0bf8","fromSide":"bottom","toNode":"736454481f7a8165","toSide":"top"},
 		{"id":"0e372375261c9129","fromNode":"076e67820b9b0bf8","fromSide":"bottom","toNode":"914a0e6df45e42f6","toSide":"top"},
 		{"id":"9c6b4f3464220a4b","fromNode":"076e67820b9b0bf8","fromSide":"bottom","toNode":"2d2e098e9d46a411","toSide":"top"}
 	]
