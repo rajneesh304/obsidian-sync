@@ -8,7 +8,7 @@
 		{"id":"3971ee3dbab994e1","type":"text","text":"Statement-based replication","x":-95,"y":430,"width":271,"height":50},
 		{"id":"3cdde5b3b7a5eb96","type":"text","text":"Write-ahead log (WAL) shipping","x":196,"y":430,"width":304,"height":50},
 		{"id":"8e7756ed65eb3397","type":"text","text":"Logical (row-based) replication","x":-95,"y":500,"width":291,"height":50},
-		{"id":"7a671d33cccb0501","x":480,"y":-115,"width":250,"height":135,"type":"file","file":"educative/databases/Multi-leader replication.md"}
+		{"id":"7a671d33cccb0501","type":"file","file":"educative/databases/Multi-leader replication.md","x":480,"y":-115,"width":250,"height":135}
 	],
 	"edges":[
 		{"id":"16c40ee035095db8","fromNode":"076e67820b9b0bf8","fromSide":"bottom","toNode":"736454481f7a8165","toSide":"top"},
