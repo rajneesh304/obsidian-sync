@@ -1,6 +1,8 @@
 {
 	"nodes":[
-		{"id":"426a1201dfcfbaa4","x":-360,"y":-280,"width":361,"height":50,"type":"text","text":"Synchronous & Asynchronous replication"}
+		{"id":"426a1201dfcfbaa4","type":"text","text":"Synchronous & Asynchronous replication","x":-360,"y":-280,"width":400,"height":50},
+		{"id":"1fe6038c6383bf33","type":"file","file":"educative/databases/Synchronous vs asynchronous replication.png","x":-360,"y":-180,"width":400,"height":360},
+		{"id":"076e67820b9b0bf8","x":137,"y":-292,"width":250,"height":60,"type":"text","text":"Data Replication M"}
 	],
 	"edges":[]
 }
