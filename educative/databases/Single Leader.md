@@ -8,4 +8,5 @@
 
 ### Replication Strategies:
 1. **Statement-based replication (SBR)** is an approach used in MySQL databases. In this approach, the primary node executes the SQL statements such as `INSERT`, `UPDATE`, `DELETE`, etc., and then the statements are written into a log file. In the next step, the log file is sent to the secondary nodes for execution. This type of replication was used in MySQL before version 5.1.
-2. 
+   Disadvantage: Any nondeterministic functions such as `NOW()` might result in distinct writes on the primary and secondary nodes.
+2. **Write-ahead log (WAL) shipping** is a data replication technique used in both PostgreSQL and Oracle. In this technique, when a transaction occurs, it’s initially recorded in a transactional log file, and the log file is written to disk. Subsequently, the recorded operations are executed on the primary database before being transmitted to secondary nodes for execution. Unlike SBR, WAL maintains transactional logs instead of SQL statements into a log file, ensuring consistency when dealing with nondeterministic functions. Writing to disk also aids in recovery in case of crash failures.
