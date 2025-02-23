@@ -8,3 +8,4 @@
 
 ### Replication Strategies:
 1. **Statement-based replication (SBR)** is an approach used in MySQL databases. In this approach, the primary node executes the SQL statements such as `INSERT`, `UPDATE`, `DELETE`, etc., and then the statements are written into a log file. In the next step, the log file is sent to the secondary nodes for execution. This type of replication was used in MySQL before version 5.1.
+2. 
