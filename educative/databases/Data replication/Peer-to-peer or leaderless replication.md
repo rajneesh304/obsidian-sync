@@ -8,3 +8,4 @@ Let’s suppose we have three nodes. If at least two out of three nodes are guar
 
 If we have *n* nodes, then every write must be updated in at least *w* nodes to be considered a success, and we must read from *r* nodes. We’ll get an updated value from reading as long as ***w+r>n*** because at least one of the nodes must have an updated write from which we can read. Quorum reads and writes adhere to these *r* and *w* values. These *n, w*, and *r* are configurable in Dynamo-style databases.
 
+![[Pasted image 20250223124432.png]]
