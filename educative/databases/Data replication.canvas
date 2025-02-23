@@ -2,7 +2,8 @@
 	"nodes":[
 		{"id":"426a1201dfcfbaa4","type":"text","text":"Synchronous & Asynchronous replication","x":-360,"y":-280,"width":400,"height":50},
 		{"id":"1fe6038c6383bf33","type":"file","file":"educative/databases/Synchronous vs asynchronous replication.png","x":-360,"y":-180,"width":400,"height":360},
-		{"id":"076e67820b9b0bf8","x":137,"y":-292,"width":250,"height":60,"type":"text","text":"Data Replication M"}
+		{"id":"076e67820b9b0bf8","x":440,"y":-280,"width":250,"height":50,"type":"text","text":"Data Replication Models"},
+		{"id":"10173793907d5b7c","x":223,"y":-106,"width":250,"height":60,"type":"text","text":"Single Leader or primary/secondary replication"}
 	],
 	"edges":[]
 }
