@@ -5,4 +5,3 @@
 - primary-secondary replication is **inappropriate if our workload is write-heavy**.
 - It’s **read resilient**. Secondary nodes can still handle read requests in case of primary node failure. Therefore, it’s a helpful approach for read-intensive applications.
 - Replication via this approach comes with **inconsistency if we use asynchronous replication**.
-- 
