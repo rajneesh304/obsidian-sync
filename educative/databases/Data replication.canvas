@@ -3,12 +3,13 @@
 		{"id":"426a1201dfcfbaa4","type":"text","text":"Synchronous & Asynchronous replication","x":-360,"y":-280,"width":400,"height":50},
 		{"id":"1fe6038c6383bf33","type":"file","file":"educative/databases/Synchronous vs asynchronous replication.png","x":-360,"y":-180,"width":400,"height":360},
 		{"id":"076e67820b9b0bf8","x":440,"y":-280,"width":250,"height":50,"type":"text","text":"Data Replication Models"},
-		{"id":"10173793907d5b7c","x":220,"y":-112,"width":257,"height":66,"type":"text","text":"Single Leader or primary-secondary replication"},
-		{"id":"914a0e6df45e42f6","x":520,"y":-112,"width":250,"height":66,"type":"text","text":"Multi-leader replication"},
-		{"id":"2d2e098e9d46a411","x":800,"y":-109,"width":250,"height":60,"type":"text","text":"Peer-to-peer or leaderless replication"}
+		{"id":"10173793907d5b7c","x":120,"y":-115,"width":257,"height":66,"type":"text","text":"Single Leader or primary-secondary replication"},
+		{"id":"914a0e6df45e42f6","x":480,"y":-115,"width":250,"height":66,"type":"text","text":"Multi-leader replication"},
+		{"id":"2d2e098e9d46a411","x":800,"y":-115,"width":250,"height":60,"type":"text","text":"Peer-to-peer or leaderless replication"}
 	],
 	"edges":[
 		{"id":"16c40ee035095db8","fromNode":"076e67820b9b0bf8","fromSide":"bottom","toNode":"10173793907d5b7c","toSide":"top"},
-		{"id":"0e372375261c9129","fromNode":"076e67820b9b0bf8","fromSide":"bottom","toNode":"914a0e6df45e42f6","toSide":"top"}
+		{"id":"0e372375261c9129","fromNode":"076e67820b9b0bf8","fromSide":"bottom","toNode":"914a0e6df45e42f6","toSide":"top"},
+		{"id":"9c6b4f3464220a4b","fromNode":"076e67820b9b0bf8","fromSide":"bottom","toNode":"2d2e098e9d46a411","toSide":"top"}
 	]
 }
