@@ -24,3 +24,7 @@ We need to map the local branch to an upstream branch
 ```sh
 git push --set-upstream origin <branch-name>
 ```
+### pull a specific branch
+```
+git checkout -b B origin/B
+```
