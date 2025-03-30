@@ -5,5 +5,5 @@ Algorithms:
 4. Topological Sort
 5. Dijkstra's Shortest path algorithm
 6. Others
-	1. Prim / Kruskal (H)
+	1. Prim / Kruskal ()
 	2. Floyd Warshall's Algorithm
