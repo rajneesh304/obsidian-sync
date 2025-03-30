@@ -1,4 +1,5 @@
 
 | Method | Time Complexity | Space Complexity | Comments |
 | ------ | --------------- | ---------------- | -------- |
-| Union  | Text            |                  |          |
+| Union  | O(n)            | O(n)             |          |
+|        |                 |                  |          |
