@@ -16,3 +16,13 @@ int find(int x) {
 	return parent[x]; 
 }
 ```
+```
+// Union by rank 
+void unionSets(int x, int y) { 
+	int rootX = find(x); 
+	int rootY = find(y); 
+	
+	// If they're already in the same set 
+	if (rootX == rootY) return;
+
+```
