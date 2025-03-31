@@ -10,3 +10,6 @@ for(int k; k<size; k++){
 	}
 }
 ```
+
+
+time complexity: O(n^3)
