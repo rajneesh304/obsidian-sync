@@ -9,4 +9,6 @@ Return a valid ordering of courses you can take to finish all courses. If there 
 
 - There can be multiple topological orderings for one graph.
 - A node can have 3 states :
-- 
+	- visited
+	- visiting
+	- unvisited
