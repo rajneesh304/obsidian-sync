@@ -24,5 +24,5 @@ void unionSets(int x, int y) {
 	
 	// If they're already in the same set 
 	if (rootX == rootY) return;
-
+// Union by rank: attach the smaller rank tree under the higher rank tree if (rank[rootX] < rank[rootY]) { parent[rootX] = rootY; }
 ```
