@@ -7,9 +7,12 @@
 |                  |                                           |                  |                                                                                                                                    |
 
 Union find with path compression:
-```
+```c++
 // Find with path compression 
 int find(int x) { 
 	if (parent[x] != x) { // Path compression: set parent to the root directly 
-	parent[x] = find(parent[x]); } return parent[x]; }
+		parent[x] = find(parent[x]); 
+	} 
+	return parent[x]; 
+}
 ```
