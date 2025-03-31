@@ -31,5 +31,7 @@ void unionSets(int x, int y) {
 		parent[rootY] = rootX;
 	else { 
 	// If ranks are the same, make one as root and increment its rank 
-	parent[rootY] = rootX; rank[rootX]++; }
+		parent[rootY] = rootX; 
+		rank[rootX]++; 
+	}
 ```
