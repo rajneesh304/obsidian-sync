@@ -5,3 +5,11 @@
 | Union by rank    | O(log n)                                  | O(n)             | maintains 2 arrays -> rank and parent. rank keeps track of children of the root node and parent keeps track of parent of the node. |
 | path compression | O(α(n))<br>α is inverse ackerman function | O(n)             | maintains 2 arrays -> rank and parent. rank keeps track of children of the root node and parent keeps track of parent of the node. |
 |                  |                                           |                  |                                                                                                                                    |
+
+Union find with path compression:
+```
+// Find with path compression 
+int find(int x) { 
+	if (parent[x] != x) { // Path compression: set parent to the root directly 
+	parent[x] = find(parent[x]); } return parent[x]; }
+```
