@@ -16,7 +16,8 @@ int find(int x) {
 	return parent[x]; 
 }
 ```
-```
+
+```c++
 // Union by rank 
 void unionSets(int x, int y) { 
 	int rootX = find(x); 
@@ -35,3 +36,4 @@ void unionSets(int x, int y) {
 		rank[rootX]++; 
 	}
 ```
+
