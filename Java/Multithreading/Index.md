@@ -10,4 +10,4 @@
 7. Interthread communication
 8. Deadlock
 9. Deamon threads
-10. 
+10. Multithreading enhancements
