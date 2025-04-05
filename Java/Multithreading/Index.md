@@ -6,4 +6,4 @@
 	1. yield()
 	2. join()
 	3. sleep()
-6. 
+6. Synchr
