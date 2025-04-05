@@ -6,4 +6,8 @@
 	1. yield()
 	2. join()
 	3. sleep()
-6. Synchr
+6. Synchronization
+7. Interthread communication
+8. Deadlock
+9. Deamon threads
+10. 
