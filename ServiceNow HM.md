@@ -95,7 +95,7 @@ Hibernate is an Object-Relational Mapping (ORM) framework that handles the persi
 - **Connection Management**: Provides connection pooling or integrates with external pools
 This internal architecture enables Hibernate to provide the seamless object-relational mapping that makes it popular for database operations in Java applications.
 
-## Strengths:
+# Strengths
 1. **Technical Versatility**: You demonstrate proficiency across multiple programming languages, frameworks, and technologies. Your skills span Java, JavaScript, Spring Boot, React, microservices architecture, and cloud platforms. This versatility likely allows you to approach problems from different angles and adapt to changing technical requirements.
 2. **Architectural Leadership**: Your experience shows strong capabilities in system architecture, particularly in transitioning from monolithic to microservice architectures. The projects you led at Oracle, including the server-driven UI-based Project Management System and the transition from Java EE to Helidon microservices, demonstrate your ability to design scalable, efficient systems.
 3. **Performance Optimization**: You've shown a pattern of significantly improving system performance, as evidenced by your work with Read Only Data Source implementation that improved performance by 80% for 3,500 customers, and your program management revamp that enhanced both performance and user experience.
