@@ -12,8 +12,6 @@ I was tasked with leading the transformation of our Project Management system fr
 - Increase development agility
 - Maintain seamless functionality for 3,500 existing customers
 
-  
-
 ## Action
 
 To address these challenges, I implemented a strategic approach:
