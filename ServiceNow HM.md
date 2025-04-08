@@ -11,9 +11,7 @@ I was tasked with leading the transformation of our Project Management system fr
 - Enhance deployment flexibility
 - Increase development agility
 - Maintain seamless functionality for 3,500 existing customers
-
 ## Action
-
 To address these challenges, I implemented a strategic approach:
 1. **Architectural Redesign**
 	- Broke down the monolithic application into discrete 
