@@ -71,62 +71,35 @@ Hibernate is an Object-Relational Mapping (ORM) framework that handles the persi
      - Executes SQL via JDBC
      - Updates the first-level cache
 
-1. **Lazy Loading**
+5. **Lazy Loading**
    - Hibernate creates proxy objects for relationships marked for lazy loading
    - When a property of a proxy is accessed, Hibernate triggers a database query to load the actual data
 
-1. **Dirty Checking**
+6. **Dirty Checking**
    - During transaction commit, Hibernate automatically detects changes to persistent objects
    - It compares current state with snapshot state taken when object was loaded
    - Only generates SQL for properties that changed
   
-1. **SQL Generation & Execution**
+7. **SQL Generation & Execution**
    - Hibernate's SQL generator creates optimized SQL based on dialect
    - Statements are prepared and executed via JDBC
    - Results are transformed back to objects
 
-1. **Transaction Management**
+8. **Transaction Management**
    - Sessions are typically wrapped in transactions
    - Hibernate can use JDBC transactions, JTA, or custom transaction strategies
 
 ## Key Technical Aspects
-
-  
-
 - **Reflection API**: Hibernate uses Java reflection to examine and manipulate object properties at runtime
-
 - **Proxy Generation**: Uses libraries like Javassist or ByteBuddy to create dynamic proxies for lazy loading
-
 - **Statement Batching**: Optimizes database operations by batching similar statements
-
 - **Connection Management**: Provides connection pooling or integrates with external pools
-
-  
-
 This internal architecture enables Hibernate to provide the seamless object-relational mapping that makes it popular for database operations in Java applications.
-
-  
-  
-  
-  
-  
 
 # Weaknesses
 
 Here are three professional weaknesses you could mention in an interview that are authentic based on your resume but also frame you as self-aware and improvement-oriented:
-
-  
-
 1. **Balancing Technical Depth vs. Breadth**: "While I've developed expertise across multiple technologies, I sometimes find myself wanting to go deeper into certain areas. I'm working on finding the right balance between maintaining my technical versatility and developing deeper specialization in key technologies like cloud-native microservices, which aligns with my current career trajectory."
-
-  
-
 2. **Documentation Discipline**: "I'm very solution-focused and sometimes move quickly to implementation. I've recognized that I need to be more disciplined about comprehensive documentation, especially in complex microservice architectures. I've been improving this by establishing personal documentation routines and templates for each project phase."
-
-  
-
 3. **Delegation Skills**: "As someone who enjoys solving technical challenges, I sometimes take on too much work myself rather than delegating effectively. I'm actively practicing better task distribution when leading technical initiatives, focusing on mentoring others and building team capabilities while meeting project deadlines."
-
-  
-
 These weaknesses acknowledge legitimate areas for growth while demonstrating self-awareness and showing you're already taking steps to address them. They're also not critical flaws that would raise red flags for most technical positions.
