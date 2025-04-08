@@ -57,14 +57,14 @@ Hibernate is an Object-Relational Mapping (ORM) framework that handles the persi
    - When your code requests a Session, the SessionFactory creates one
    - The Session is the primary interface for persistence operations
    - It maintains a first-level cache of objects (persistence context)
-
-1. **Object State Management**
+  
+3. **Object State Management**
    - Hibernate tracks entity objects in different states:
      - Transient: objects not associated with any Session
      - Persistent: objects associated with a Session and having a database representation
      - Detached: objects that were previously persistent but now disconnected from a Session
 
-1. **Object-Relational Mapping Process**
+4. **Object-Relational Mapping Process**
    - When you persist an object, Hibernate:
      - Checks the first-level cache
      - Generates appropriate SQL based on mapping metadata
@@ -72,40 +72,22 @@ Hibernate is an Object-Relational Mapping (ORM) framework that handles the persi
      - Updates the first-level cache
 
 1. **Lazy Loading**
-
    - Hibernate creates proxy objects for relationships marked for lazy loading
-
    - When a property of a proxy is accessed, Hibernate triggers a database query to load the actual data
 
-  
-
-6. **Dirty Checking**
-
+1. **Dirty Checking**
    - During transaction commit, Hibernate automatically detects changes to persistent objects
-
    - It compares current state with snapshot state taken when object was loaded
-
    - Only generates SQL for properties that changed
-
-  
-
-7. **SQL Generation & Execution**
-
+  
+1. **SQL Generation & Execution**
    - Hibernate's SQL generator creates optimized SQL based on dialect
-
    - Statements are prepared and executed via JDBC
-
    - Results are transformed back to objects
 
-  
-
-8. **Transaction Management**
-
+1. **Transaction Management**
    - Sessions are typically wrapped in transactions
-
    - Hibernate can use JDBC transactions, JTA, or custom transaction strategies
-
-  
 
 ## Key Technical Aspects
 
