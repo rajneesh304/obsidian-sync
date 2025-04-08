@@ -53,46 +53,25 @@ Hibernate is an Object-Relational Mapping (ORM) framework that handles the persi
    - When an application starts, Hibernate reads configuration files (hibernate.cfg.xml or properties)
    - It creates a Configuration object containing mapping and connection details
    - The Configuration builds a SessionFactory, a thread-safe, immutable cache of compiled mappings
-
-  
-
 2. **Session Creation**
-
    - When your code requests a Session, the SessionFactory creates one
-
    - The Session is the primary interface for persistence operations
-
    - It maintains a first-level cache of objects (persistence context)
 
-  
-
-3. **Object State Management**
-
+1. **Object State Management**
    - Hibernate tracks entity objects in different states:
-
      - Transient: objects not associated with any Session
-
      - Persistent: objects associated with a Session and having a database representation
-
      - Detached: objects that were previously persistent but now disconnected from a Session
 
-  
-
-4. **Object-Relational Mapping Process**
-
+1. **Object-Relational Mapping Process**
    - When you persist an object, Hibernate:
-
      - Checks the first-level cache
-
      - Generates appropriate SQL based on mapping metadata
-
      - Executes SQL via JDBC
-
      - Updates the first-level cache
 
-  
-
-5. **Lazy Loading**
+1. **Lazy Loading**
 
    - Hibernate creates proxy objects for relationships marked for lazy loading
 
