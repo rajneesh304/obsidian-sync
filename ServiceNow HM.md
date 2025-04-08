@@ -97,7 +97,6 @@ Hibernate is an Object-Relational Mapping (ORM) framework that handles the persi
 This internal architecture enables Hibernate to provide the seamless object-relational mapping that makes it popular for database operations in Java applications.
 
 # Weaknesses
-
 Here are three professional weaknesses you could mention in an interview that are authentic based on your resume but also frame you as self-aware and improvement-oriented:
 1. **Balancing Technical Depth vs. Breadth**: "While I've developed expertise across multiple technologies, I sometimes find myself wanting to go deeper into certain areas. I'm working on finding the right balance between maintaining my technical versatility and developing deeper specialization in key technologies like cloud-native microservices, which aligns with my current career trajectory."
 2. **Documentation Discipline**: "I'm very solution-focused and sometimes move quickly to implementation. I've recognized that I need to be more disciplined about comprehensive documentation, especially in complex microservice architectures. I've been improving this by establishing personal documentation routines and templates for each project phase."
