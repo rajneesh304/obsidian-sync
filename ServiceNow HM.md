@@ -15,32 +15,18 @@ I was tasked with leading the transformation of our Project Management system fr
 ## Action
 
 To address these challenges, I implemented a strategic approach:
-
-  
-
 1. **Architectural Redesign**
-
-   - Broke down the monolithic application into discrete microservices
-
-   - Utilized Helidon framework for microservice development
-
-   - Implemented Kubernetes for container orchestration
-
-  
+	- Broke down the monolithic application into discrete 
+	- Utilized Helidon framework for microservice development
+	- Implemented Kubernetes for container orchestration
 
 2. **Technology Integration**
-
    - Transitioned from ADF to VBCS-based microservices
-
    - Developed a standalone security utility using RBAC and JWT
-
    - Integrated existing REST services with new microservice architecture
 
-  
-
 3. **Performance Optimization**
-
-   - Implemented Read Only Data Source (RODS) for read-heavy operations
+- Implemented Read Only Data Source (RODS) for read-heavy operations
 
    - Designed services with clear boundaries and responsibilities
 
