@@ -26,73 +26,32 @@ To address these challenges, I implemented a strategic approach:
    - Integrated existing REST services with new microservice architecture
 
 3. **Performance Optimization**
-- Implemented Read Only Data Source (RODS) for read-heavy operations
-
+	- Implemented Read Only Data Source (RODS) for read-heavy operations
    - Designed services with clear boundaries and responsibilities
-
    - Established robust inter-service communication protocols
-
-  
-
-4. **Risk Mitigation**
-
+1. **Risk Mitigation**
    - Conducted comprehensive JUnit testing
-
    - Developed detailed migration strategy
-
    - Maintained close communication with business groups
-
    - Ensured minimal disruption to existing customer workflows
-
-  
-
 ## Result
-
 The microservices transformation delivered significant improvements:
-
 - 80% performance enhancement for read-heavy operations
-
 - 30% increase in user adoption
-
 - Improved system scalability and deployment efficiency
-
 - Enhanced ability to quickly implement new features
-
 - Simplified maintenance and future system evolution
 
-  
-
 **Key Metrics:**
-
 - Migrated 3,500 customer environments
-
 - Reduced deployment time by approximately 40%
-
 - Improved system responsiveness and user experience
-
-  
-  
-  
-  
-
 # How Hibernate Works Internally
-
-  
-
 Hibernate is an Object-Relational Mapping (ORM) framework that handles the persistence of Java objects to a relational database. Here's a breakdown of how it works internally:
-
-  
-
 ## Core Components and Internal Flow
-
-  
-
 1. **Configuration & SessionFactory**
-
    - When an application starts, Hibernate reads configuration files (hibernate.cfg.xml or properties)
-
    - It creates a Configuration object containing mapping and connection details
-
    - The Configuration builds a SessionFactory, a thread-safe, immutable cache of compiled mappings
 
   
