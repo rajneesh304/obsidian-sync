@@ -27,6 +27,7 @@ To address these challenges, I implemented a strategic approach:
 	- Implemented Read Only Data Source (RODS) for read-heavy operations
    - Designed services with clear boundaries and responsibilities
    - Established robust inter-service communication protocols
+
 4. **Risk Mitigation**
    - Conducted comprehensive JUnit testing
    - Developed detailed migration strategy
