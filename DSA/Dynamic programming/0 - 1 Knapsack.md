@@ -73,6 +73,7 @@ for(int i=0; i<n+1; i++){
 Given an `array` and a `target`, find if there is a subset in the array whose sum equals to the `target`.
 ```c++
 // target is w, array is wt array
+// t is a table of n+1 by w+1 size of type boolean
 for(int i=1; i<n+1; i++){
 	for(int j=1; j<target + 1; j++){
 		if(wt[i-1] <= j){
@@ -82,9 +83,12 @@ for(int i=1; i<n+1; i++){
 		}
 	}
 }
-
 ```
 ### Equal sum partition problem
+```c++
+
+
+```
 ### Count of subsets of given sum
 ### Maximize subset sum difference
 ### Count of number of subsets of given difference
