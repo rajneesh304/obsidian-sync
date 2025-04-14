@@ -6,7 +6,11 @@ int ks(int [] val, int [] wt, int w, int n){
 	}
 
 	if(wt[n-1] <= w){
-		ks(val, wt, w-wt[n-1], n-1);
+		return max(
+			val[n-1] + ks(val, wt, w-wt[n-1], n-1),
+			ks(val, wt, w, n-1) 
+		);
 	}
+	
 }
 ```
