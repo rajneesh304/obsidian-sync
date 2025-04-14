@@ -73,6 +73,13 @@ for(int i=0; i<n+1; i++){
 Given an `array` and a `target`, find if there is a subset in the array whose sum equals to the `target`.
 ```c++
 // target is w, array is wt array
+for(int i=1; i<n+1; i++){
+	for(int j=1; j<target + 1; j++){
+		if(wt[i-1] <= j){
+		t[i]
+		}
+	}
+}
 
 ```
 ### Equal sum partition problem
