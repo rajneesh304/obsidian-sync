@@ -70,6 +70,7 @@ for(int i=0; i<n+1; i++){
 
 ## Similar problems
 ### Subset sum problem
+Given an array and a target, find the 
 ### Equal sum partition problem
 ### Count of subsets of given sum
 ### Maximize subset sum difference
