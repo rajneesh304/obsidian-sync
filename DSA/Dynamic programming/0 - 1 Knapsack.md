@@ -72,7 +72,7 @@ for(int i=0; i<n+1; i++){
 ### Subset sum problem
 Given an `array` and a `target`, find if there is a subset in the array whose sum equals to the `target`.
 ```c++
-
+// target is w, array is wt array
 
 ```
 ### Equal sum partition problem
