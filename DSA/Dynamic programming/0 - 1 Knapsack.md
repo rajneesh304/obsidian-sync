@@ -11,6 +11,8 @@ int ks(int [] val, int [] wt, int w, int n){
 			ks(val, wt, w, n-1) 
 		);
 	}
-	
+	else{
+		return ks(val, wt, w, n-1);
+	}
 }
 ```
