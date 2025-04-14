@@ -1,4 +1,4 @@
-## Implement
+## Implementation
 ### Recursive code :
 ```c++
 int ks(int [] val, int [] wt, int w, int n){
@@ -67,3 +67,9 @@ for(int i=0; i<n+1; i++){
 	}
 }
 ```
+
+## Similar problems
+### Subset sum problem
+### Equal sum partition problem
+### Count of subsets of given sum
+Maximise subset sum difference
