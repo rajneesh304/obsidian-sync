@@ -72,4 +72,6 @@ for(int i=0; i<n+1; i++){
 ### Subset sum problem
 ### Equal sum partition problem
 ### Count of subsets of given sum
-Maximise subset sum difference
+### Maximize subset sum difference
+### Count of number of subsets of given difference
+### Target sum problem
