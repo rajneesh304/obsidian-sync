@@ -34,16 +34,20 @@ int ks(int [] val, int [] wt, int w, int n){
 	}
 
 	if(t[n][w] != -1){
-	ret}
-
+		return t[n][w]
+	}
+	
 	if(wt[n-1] <= w){
-		return max(
+		t[n][w] = max(
 			val[n-1] + ks(val, wt, w-wt[n-1], n-1),
 			ks(val, wt, w, n-1) 
 		);
 	}
 	else{
-		return ks(val, wt, w, n-1);
+		t[n][w] = ks(val, wt, w, n-1);
 	}
+	return t[n][w];
 }
 ```
+
+### Tabulatiuo
