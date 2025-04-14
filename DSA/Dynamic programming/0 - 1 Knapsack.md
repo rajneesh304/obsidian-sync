@@ -70,7 +70,11 @@ for(int i=0; i<n+1; i++){
 
 ## Similar problems
 ### Subset sum problem
-Given an array and a target, find the 
+Given an `array` and a `target`, find if there is a subset in the array whose sum equals to the `target`.
+```c++
+
+
+```
 ### Equal sum partition problem
 ### Count of subsets of given sum
 ### Maximize subset sum difference
