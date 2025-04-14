@@ -33,6 +33,9 @@ int ks(int [] val, int [] wt, int w, int n){
 		return 0;
 	}
 
+	if(t[n][w] != -1){
+	ret}
+
 	if(wt[n-1] <= w){
 		return max(
 			val[n-1] + ks(val, wt, w-wt[n-1], n-1),
