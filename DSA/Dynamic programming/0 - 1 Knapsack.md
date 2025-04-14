@@ -23,7 +23,8 @@ int t[n+1][w+1];
 memset(t, -1, t.size());
 for(int i=0; i<n+1; i++){
 	for(int j=0; j++){
-		
+		if(i==0 || j==0)
+			t[i][j] = 0;
 	}
 }
 
