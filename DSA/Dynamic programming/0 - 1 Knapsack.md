@@ -5,5 +5,8 @@ int ks(int [] val, int [] wt, int w, int n){
 		return 0;
 	}
 
+	if(wt[n-1] <= w){
+		ks(val, wt, w-wt[n-1], n-1);
+	}
 }
 ```
