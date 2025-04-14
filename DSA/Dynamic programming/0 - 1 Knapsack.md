@@ -20,7 +20,12 @@ int ks(int [] val, int [] wt, int w, int n){
 ### Memoization
 ```c++
 int t[n+1][w+1];
-memset(t, -1, t.size())
+memset(t, -1, t.size());
+for(int i=0; i<n+1; i++){
+	for(int j=0; j++){
+		
+	}
+}
 
 int ks(int [] val, int [] wt, int w, int n){
 	if(n == 0 || w == 0){
