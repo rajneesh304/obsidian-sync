@@ -50,4 +50,7 @@ int ks(int [] val, int [] wt, int w, int n){
 }
 ```
 
-### Tabulatiuo
+### Tabulation
+```cpp
+
+```
