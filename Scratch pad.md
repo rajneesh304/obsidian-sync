@@ -13,12 +13,12 @@ Yubikey pin: `NA6H98KA`
 --clr-light-a0: #ffffff;
 
 /** Theme primary colors */
---clr-primary-a0: #132cd9;
---clr-primary-a10: #4a42de;
---clr-primary-a20: #6958e3;
---clr-primary-a30: #836ee8;
---clr-primary-a40: #9a85ed;
---clr-primary-a50: #b09df1;
+--clr-primary-a0: #4751de;
+--clr-primary-a10: #6363e2;
+--clr-primary-a20: #7b75e7;
+--clr-primary-a30: #9087eb;
+--clr-primary-a40: #a49aef;
+--clr-primary-a50: #b7aef2;
 
 /** Theme surface colors */
 --clr-surface-a0: #141414;
@@ -29,12 +29,12 @@ Yubikey pin: `NA6H98KA`
 --clr-surface-a50: #8c8c8c;
 
 /** Theme tonal surface colors */
---clr-surface-tonal-a0: #1a1725;
---clr-surface-tonal-a10: #2f2c3a;
---clr-surface-tonal-a20: #46434f;
---clr-surface-tonal-a30: #5d5b66;
---clr-surface-tonal-a40: #76747e;
---clr-surface-tonal-a50: #908e96;
+--clr-surface-tonal-a0: #1b1a25;
+--clr-surface-tonal-a10: #302f39;
+--clr-surface-tonal-a20: #46454f;
+--clr-surface-tonal-a30: #5e5d66;
+--clr-surface-tonal-a40: #77767e;
+--clr-surface-tonal-a50: #919096;
 
 /** Examples */
 .bg-primary {
