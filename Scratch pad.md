@@ -1,11 +1,10 @@
 ### Interesting sites
+
 1. [Untools](untools.co)
 2. [VMWARE Download](https://softwareupdate.vmware.com/cds/vmw-desktop/player/)
 3. Widgey Url ://widgy.icu/api/v1/widgy/96bad3c8-0b94-4a4a-a8d7-2a6e5a6399fc
 
 Yubikey pin: `NA6H98KA`
-
-
 
 ```
 /** Base colors */
@@ -43,21 +42,7 @@ Yubikey pin: `NA6H98KA`
 }
 ```
 
-
-
 ```
-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
-
-  
-  
-
-https://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@github.com/rajneesh304/obsidian-sync.git
-
-  
-  
-  
-  
-
 Issues:
 
 1. Images are not present for patch test
@@ -100,15 +85,15 @@ Hi,
 
 I am Rajneesh Singhatiya, Currently working as a senior applications engineer at Oracle. I am writing to you to apply for opening that I found on https://hnhiring.com/technologies/java.
 
-  
+
 
 TLDR; I am looking for work opportunities in a fast-paced company dealing with challenging problems. Wanted to know if we could discuss any opportunities at VDX.tv which fit my profile?
 
-  
+
 
 Some background about me:
 
-  
+
 
 Academics: I did my Masters from IIIT - Hyderabad in Computer Science and Information Security(Databases, OS, Distributed Systems, ML/AI).
 
@@ -116,16 +101,16 @@ Industrial Experience: I have worked in Oracle ERP as Applications Engineer(Sept
 
 I am a highly motivated individual wanting to solve challenging problems!
 
-  
-  
+
+
 
 Attaching my resume for your perusal.
 
-  
+
 
 Thank you for your time and consideration!
 
-  
+
 
 Regards,
 
