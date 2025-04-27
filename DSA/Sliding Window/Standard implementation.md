@@ -1,4 +1,7 @@
 ```c++
-int l=0, r=0;
-
+int l=0;
+for(r=0; r<size; r++){
+	m[arr[r]] ++;
+	while(c)
+}
 ```
