@@ -1,3 +1,6 @@
+Q. https://leetcode.com/problems/longest-repeating-character-replacement/description/
+Solution: 
+
 ```c++
 int l=0;
 for(r=0; r<size; r++){
