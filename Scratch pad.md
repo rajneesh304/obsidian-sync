@@ -42,3 +42,92 @@ Yubikey pin: `NA6H98KA`
  background-color: var(--clr-surface-a0);
 }
 ```
+
+
+
+```
+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
+
+  
+  
+
+https://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@github.com/rajneesh304/obsidian-sync.git
+
+  
+  
+  
+  
+
+Issues:
+
+1. Images are not present for patch test
+
+2. Brow lamination
+
+3. Eyelash tint
+
+4. LED UV Lash Extensions
+
+5. Hybrid Full Set
+
+6. LED UV Lash Extensions - Infills
+
+7. Eyelash Extensions - Removal
+
+8. Eyelash Extensions - Classic Semi-Permanent
+
+9. Eyelash Extensions - Hybrid Full Set
+
+10. Eyelash Extensions - Hybrid Infills
+
+11. Eyelash Extensions - Natural Volume
+
+12. Eyelash Extensions - Natural Volume Infills
+
+13. Hybrid Full Set and Lash Tint
+
+14. Eyelash Extensions - Extra Classic Infills
+
+15. Facial - Face Lymphatic Drainage Massage
+
+16. Ladies' Waxing - Underarm (Hot Wax)
+
+17. Ladies' Waxing - Arm
+```
+
+```
+Hi,
+
+I am Rajneesh Singhatiya, Currently working as a senior applications engineer at Oracle. I am writing to you to apply for opening that I found on https://hnhiring.com/technologies/java.
+
+  
+
+TLDR; I am looking for work opportunities in a fast-paced company dealing with challenging problems. Wanted to know if we could discuss any opportunities at VDX.tv which fit my profile?
+
+  
+
+Some background about me:
+
+  
+
+Academics: I did my Masters from IIIT - Hyderabad in Computer Science and Information Security(Databases, OS, Distributed Systems, ML/AI).
+
+Industrial Experience: I have worked in Oracle ERP as Applications Engineer(September 2020 - March 2023) and Senior Applications Engineer(March 2023 - present) in various backend technologies like Spring Boot, Kafka, Oracle DB, Git, Docker, Kubernetes etc.
+
+I am a highly motivated individual wanting to solve challenging problems!
+
+  
+  
+
+Attaching my resume for your perusal.
+
+  
+
+Thank you for your time and consideration!
+
+  
+
+Regards,
+
+Rajneesh S.
+```
