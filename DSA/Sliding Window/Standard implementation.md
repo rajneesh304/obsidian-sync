@@ -1,4 +1,5 @@
-Q. https://leetcode.com/problems/longest-repeating-character-replacement/description/
+Q. https://leetcode.com/problems/longest-repeating-character-replacement/
+
 Solution: 
 
 ```c++
