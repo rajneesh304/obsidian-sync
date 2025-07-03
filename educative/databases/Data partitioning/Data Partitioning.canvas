@@ -1,6 +1,0 @@
-{
-	"nodes":[
-		{"id":"9de6a6d75a85a03d","x":-400,"y":-300,"width":524,"height":140,"type":"text","text":"Data partitioning (or sharding) enables us to use multiple nodes where each node manages some part of the whole data. To handle increasing query rates and data amounts, we strive for balanced partitions and balanced read/write load."}
-	],
-	"edges":[]
-}
