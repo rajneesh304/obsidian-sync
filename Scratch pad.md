@@ -117,8 +117,3 @@ Regards,
 Rajneesh S.
 ```
 
-
-
-Vinay Sadhu: 9346652494
-
-https://deploy-preview-499--beta-docs-site.netlify.app/docs/cloud-cost-intelligence/overview
