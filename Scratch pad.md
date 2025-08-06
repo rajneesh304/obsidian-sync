@@ -82,4 +82,4 @@ Rajneesh S.
 
 
 Hi 
-I am Rajneesh Singhatiya, having 5+ years of experience in developing scalable applications in multiple languages, 
+I am Rajneesh Singhatiya, having 5+ years of experience in developing modular and scalable applications in multiple languages backed by myriad of technologies like Spring Boot, AWS, OCI etc.
