@@ -82,4 +82,4 @@ Rajneesh S.
 
 
 Hi 
-I am Rajneesh Singhatiya, and I have 5+ years of experience in developing scalable applications in 
+I am Rajneesh Singhatiya, having 5+ years of experience in developing scalable applications in multiple languages, 
